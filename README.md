@@ -200,12 +200,12 @@ https://sol.sbc.org.br/index.php/sbes/article/view/30361
 ```
 
 ## ลิงก์เอกสารอ้างอิง
-- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
-- [ลิงก์งานวิจัยอ้างอิง](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11387931/)
-- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
-- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
-- [แนบเอกสารอื่น ๆ (1)](https://doi.org/10.3390/economies12020035)
-- [แนบเอกสารอื่น ๆ (2)](https://sol.sbc.org.br/index.php/sbes/article/view/30361)
+- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)``` https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer```
+- [ลิงก์งานวิจัยอ้างอิง](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11387931/)```https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11387931/```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer) ``` https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer ```
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)``` https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer ```
+- [แนบเอกสารอื่น ๆ (1)](https://doi.org/10.3390/economies12020035)```https://doi.org/10.3390/economies12020035```
+- [แนบเอกสารอื่น ๆ (2)](https://sol.sbc.org.br/index.php/sbes/article/view/30361)```https://sol.sbc.org.br/index.php/sbes/article/view/30361```
 
 # การวิเคราะห์ปัญหาและความเป็นมาของโครงงาน
 ## ข้อ 2.1 คำชี้แจง/เป้าหมายไมล์สโตน
@@ -272,12 +272,12 @@ Nariswari, N., Prasetyo, Y., & Abdullah, A. G. (2023). Analysis of Skill Gap in 
 ```
 
 ## ลิงก์เอกสารอ้างอิง
-- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
-- [ลิงก์งานวิจัยอ้างอิง](https://sol.sbc.org.br/index.php/sbes/article/view/30361)
-- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
-- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
-- [แนบเอกสารอื่น ๆ (1)](https://www.mdpi.com/2227-7099/13/7/196)
-- [แนบเอกสารอื่น ๆ (2)](https://www.tandfonline.com/doi/full/10.1080/2331186X.2024.2441656)
+- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)```https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer```
+- [ลิงก์งานวิจัยอ้างอิง](https://sol.sbc.org.br/index.php/sbes/article/view/30361)```https://sol.sbc.org.br/index.php/sbes/article/view/30361```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)```https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer```
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)```https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer```
+- [แนบเอกสารอื่น ๆ (1)](https://www.mdpi.com/2227-7099/13/7/196)```https://www.mdpi.com/2227-7099/13/7/196```
+- [แนบเอกสารอื่น ๆ (2)](https://www.tandfonline.com/doi/full/10.1080/2331186X.2024.2441656)```https://www.tandfonline.com/doi/full/10.1080/2331186X.2024.2441656```
 
 # ล่างนี้คือ template ทำไว้เพื่อใส่ลิงก์
 ## ลิงก์เอกสารอ้างอิง
