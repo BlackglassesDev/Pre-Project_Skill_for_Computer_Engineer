@@ -319,183 +319,187 @@ https://www.tandfonline.com/doi/full/10.1080/2331186X.2024.2441656
 - ลิงค์ reference: ส่งลิงค์บทความ พร้อมสรุปแต่ละบทความ (ประมาณ 100 คำ/บทความ)
 - ความคาดหวัง: นักศึกษาต้องสรุปได้ว่า แต่ละงานวิจัยทำอะไร ใช้เทคโนโลยีอะไร ผลลัพธ์เป็นอย่างไร และมีข้อจำกัดอะไร
 ```text
-1) Technology and Engineering Skills Gap in Industry 4.0
-ลิงก์: https://doi.org/10.1109/TEM.2019.2916362
-งานวิจัยทำอะไร:
-งานวิจัยนี้มุ่งวิเคราะห์ช่องว่างทักษะระหว่างบัณฑิตวิศวกรรมกับความต้องการทักษะของอุตสาหกรรมในยุค Industry 4.0 โดยใช้เทคโนโลยี
-วิเคราะห์ข้อมูล เช่น AI และ IoT เพื่อระบุทักษะสำคัญที่ขาดหาย ผลพบว่าบัณฑิตจำนวนมากยังไม่มีทักษะด้านการแก้ปัญหา การเขียนโปรแกรม
-การใช้เครื่องมืออัตโนมัติ และการทำงานร่วมกัน ซึ่งเป็นความสามารถที่องค์กรต้องการอย่างมาก งานวิจัยช่วยให้มหาวิทยาลัยมองเห็นว่า
-ควรปรับหลักสูตรเพิ่มด้านทักษะดิจิทัลอย่างไร อย่างไรก็ตามข้อมูลจำกัดเฉพาะบริษัทขนาดกลาง–ใหญ่ ทำให้ไม่สะท้อนภาพรวมทั้งหมดของตลาดงาน
+1. Demand for digital skills, skill gaps and graduate employability: Evidence from employers in Malaysia — 2024
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11387931/
+วิจัยนี้สำรวจนายจ้างในมาเลเซียเพื่อระบุ “digital skills” ที่ตลาดแรงงานต้องการตอนนี้และในอนาคต และเปรียบเทียบกับทักษะที่บัณฑิตมีจริง (skill gap) พบว่า top ทักษะที่นายจ้างต้องการคือ “information & data literacy, problem-solving, digital content creation” และในอนาคตกลุ่มที่เน้นคือ problem-solving, safety และ communication/collaboration ผลชี้ว่ามี skill gap ชัดเจน โดยเฉพาะด้านการสื่อสารและการทำงานร่วมกัน
 
-ใช้เทคโนโลยี:
-AI, IoT, Automation skill mapping analytics
+เทคโนโลยี/วิธีวิจัย
+ใช้ Online survey + Descriptive statistics + Factor analysis
+ใช้เครื่องมือ Google Forms / Likert-scale
+วิเคราะห์ด้วย SPSS
 
-ผลลัพธ์:
-บัณฑิตขาด essential survival skills ได้แก่ problem-solving, coding skill, automation tools และ teamwork
+ผลลัพธ์
+ทักษะที่ต้องการสูงสุดตอนนี้: information & data literacy, digital content creation, problem-solving
+ทักษะอนาคต: problem-solving, communication, collaboration, safety
+มี skill gap ชัดเจน โดยเฉพาะ communication และ teamwork
 
-ข้อจำกัด:
-ข้อมูลมาจากองค์กรขนาดกลาง–ใหญ่เท่านั้น
-
-
-2) Soft Skills for Computer Engineering Students in the Digital Era
-ลิงก์: https://doi.org/10.1016/j.chb.2020.106414
-งานวิจัยทำอะไร:
-งานวิจัยนี้ศึกษาความสำคัญของ soft skills ที่มีผลต่อความสำเร็จในการทำงานของนักศึกษาวิศวกรรมคอมพิวเตอร์ในยุคดิจิทัล
-โดยใช้แบบสอบถามและโมเดล SEM วิเคราะห์ความสัมพันธ์ของทักษะต่าง ๆ ผลลัพธ์พบว่าการสื่อสาร การทำงานเป็นทีม ความยืดหยุ่นปรับตัว
-และความสามารถด้านการเขียนโปรแกรม เป็นปัจจัยที่ส่งผลโดยตรงต่อความพร้อมทำงานจริง งานนี้สรุปว่า soft skills มีความสำคัญ
-ไม่แพ้ทักษะเชิงเทคนิค อย่างไรก็ตามผลการวิจัยอาจมีความคลาดเคลื่อนจากความคิดเห็นส่วนบุคคลของผู้ตอบแบบสอบถาม
-
-ใช้เทคโนโลยี:
-Survey analytics, SEM (statistical modeling)
-
-ผลลัพธ์:
-ทักษะสำคัญคือ communication, teamwork, adaptability และ coding proficiency
-
-ข้อจำกัด:
-อาจเกิด bias เพราะใช้แบบสอบถาม
+ข้อจำกัด
+เก็บข้อมูลเฉพาะ นายจ้างมาเลเซีย ทำให้ทั่วไปอาจไม่ตรงกับประเทศอื่น
+เป็น perception-based survey อาจมีอคติทางความคิดของผู้ตอบ
 
 
-3) Framework for Teaching Computational Thinking in Engineering
-ลิงก์: https://doi.org/10.1145/3372788
-งานวิจัยทำอะไร:
-งานวิจัยนี้เสนอกรอบการสอน Computational Thinking สำหรับนักศึกษาวิศวกรรมคอมพิวเตอร์ โดยผสมผสานการเขียนโปรแกรม Python,
-การจำลองอัลกอริทึม และ block-based coding เพื่อพัฒนาวิธีคิดเชิงตรรกะของผู้เรียน การทดลองพบว่านักศึกษามีความสามารถใน
-การวิเคราะห์ปัญหา และออกแบบวิธีแก้ปัญหาเพิ่มขึ้นถึง 35% สะท้อนว่ากรอบการสอนนี้ช่วยพัฒนาทักษะพื้นฐานที่จำเป็นในสายวิศวกรรมได้จริง
-อย่างไรก็ตามการทดลองใช้กลุ่มตัวอย่างขนาดเล็ก ทำให้ไม่สามารถสรุปผลกับนักศึกษาทั่วไปได้อย่างครอบคลุม
+2. The Skill Gap in Software Industry: A Mapping Study — 2024
+https://sol.sbc.org.br/index.php/sbes/article/view/30361
+บทความนี้เป็น mapping study ที่คัดวรรณกรรมหลายพันชิ้น สรุป 31 งานที่เกี่ยวกับ skill gap ในอุตสาหกรรมซอฟต์แวร์ วิเคราะห์สาเหตุ เช่น ความล้าสมัยของหลักสูตร วิทยากรไม่มีประสบการณ์จริง และความเปลี่ยนแปลงเร็วของตลาด พร้อมเสนอแนวทางแก้ เช่น ปรับหลักสูตร, เพิ่ม internships, การร่วมมือระหว่างมหาวิทยาลัยกับอุตสาหกรรม เพื่อลด gap
 
-ใช้เทคโนโลยี:
-Python, block-based coding, algorithmic simulation
+เทคโนโลยี/วิธีวิจัย
+Systematic Mapping Study (SMS)
+ใช้ฐานข้อมูล Scopus, IEEE, ACM
+Keyword-based screening + inclusion/exclusion criteria
 
-ผลลัพธ์:
-ทักษะคิดเชิงตรรกะและการแก้ปัญหาเพิ่มขึ้น 35%
+ผลลัพธ์
+ปัญหาหลักคือ หลักสูตรล้าสมัย / อาจารย์ไม่ใช่มืออาชีพสายอุตสาหกรรม
+เสนอให้เพิ่ม industry collaboration, internship, project-based learning
 
-ข้อจำกัด:
-ทดลองกับผู้เรียนจำนวนน้อย
-
-
-4) Using Gamification to Improve Engineering Survival Skills
-ลิงก์: https://doi.org/10.1109/ACCESS.2021.3059874
-งานวิจัยทำอะไร:
-งานวิจัยนี้พัฒนาแพลตฟอร์ม Gamification ผ่าน Unity Engine เพื่อช่วยนักศึกษาวิศวกรรมพัฒนาทักษะสำคัญ เช่น debugging,
-critical thinking และ teamwork โดยการเรียนรู้ผ่านเกมที่สร้างสถานการณ์จำลองจริง ผลการทดลองแสดงว่านักศึกษามีส่วนร่วม
-ในการเรียนเพิ่มขึ้น และสามารถแก้โจทย์ที่ซับซ้อนขึ้นได้อย่างมีประสิทธิภาพมากกว่ารูปแบบการสอนเดิม อย่างไรก็ตามผลลัพธ์ยังจำกัดอยู่
-ในห้องปฏิบัติการ และยังไม่มีหลักฐานว่าประสิทธิภาพจะคงอยู่เมื่อใช้ในสภาพการทำงานจริง
-
-ใช้เทคโนโลยี:
-Unity Engine, game-based learning, player analytics
-
-ผลลัพธ์:
-นักศึกษามี engagement สูงขึ้นและแก้ปัญหายากได้ดีขึ้น
-
-ข้อจำกัด:
-ทดสอบเฉพาะในสภาพแวดล้อมทดลอง
+ข้อจำกัด
+คัดแค่บทความที่ตีพิมพ์อังกฤษ → อาจขาดงานท้องถิ่น
+ไม่วิเคราะห์เชิงลึกเหมือน systematic review (SR)
 
 
-5) AI-based Skill Assessment for Engineering Students
-ลิงก์: https://doi.org/10.1109/TALE48869.2020.9368430
-งานวิจัยทำอะไร:
-งานวิจัยนี้นำเสนอระบบประเมินทักษะนักศึกษาวิศวกรรมด้าน programming และ problem-solving โดยใช้ Machine Learning
-และ NLP วิเคราะห์โค้ดแบบอัตโนมัติ ระบบสามารถตรวจจับข้อผิดพลาดทั่วไป รูปแบบการคิดของผู้เรียน และระบุจุดอ่อนเฉพาะบุคคล
-ผลลัพธ์พบว่าความแม่นยำของระบบสูงกว่าอาจารย์ผู้สอนถึง 22% ช่วยลดภาระการตรวจงานและให้ feedback ได้รวดเร็วขึ้น
-อย่างไรก็ตามข้อจำกัดคือระบบรองรับเพียงสองภาษา ทำให้ไม่สามารถใช้ได้กับวิชาเฉพาะทางทั้งหมดิ
+3. Engineering employability skills: Students, academics and industry professionals perception — 2023
+https://journals.sagepub.com/doi/10.1177/03064190231214178
+งานวิจัยนี้สำรวจมุมมองของนักศึกษา อาจารย์ และผู้ประกอบการต่อ “employability skills” ในสายวิศวกรรม — พบว่ามีความคาดหวังสูงต่อทักษะทั้ง technical และ soft skills โดย soft skills เช่น teamwork, communication, adaptability ถูกยกให้มีความสำคัญเทียบเท่าทักษะเชิงเทคนิค แสดงให้เห็นว่าการพัฒนาทักษะรอบด้านเป็นสิ่งจำเป็นสำหรับบัณฑิตยุคใหม่
 
-ใช้เทคโนโลยี:
-Machine Learning, NLP, automated code assessment
+เทคโนโลยี/วิธีวิจัย
+ใช้ Mixed-methods → Survey + Interviews
+สถิติพื้นฐาน + thematic coding
 
-ผลลัพธ์:
-ระบบประเมินได้แม่นยำกว่าอาจารย์ 22%
+ผลลัพธ์
+ทั้งสามกลุ่มให้ความสำคัญต่อ soft skills เทียบเท่าหรือมากกว่า technical skills
+ทักษะที่สำคัญที่สุด: communication, teamwork, adaptability
 
-ข้อจำกัด:
-รองรับแค่ Python และ Java
-
-
-6) Work-Ready Skills in Computer Engineering Graduates
-ลิงก์: https://doi.org/10.1016/j.ijedudev.2021.102350
-งานวิจัยทำอะไร:
-งานวิจัยนี้สำรวจความต้องการทักษะจากบริษัทด้านเทคโนโลยีเพื่อระบุว่าบัณฑิตวิศวกรรมคอมพิวเตอร์ควรมีทักษะอะไรจึงจะทำงานได้ทันที
-ผลการวิเคราะห์ skill matrix พบว่าทักษะสำคัญที่สุดคือ coding, debugging, communication, project management,
-version control และ cloud computing งานวิจัยชี้ว่า survival skills ที่จำเป็นต่อการเข้าสู่งานจริงไม่ได้มีเพียงด้านเทคนิค
-แต่รวมถึงทักษะการทำงานเป็นทีมและการจัดการงานด้วย อย่างไรก็ตามข้อมูลมีข้อจำกัดเพราะมาจากบางพื้นที่ของโลกเท่านั้น
-
-ใช้เทคโนโลยี:
-Survey platform, skill matrix analysis
-
-ผลลัพธ์:
-ระบุ 5 ทักษะสำคัญ เช่น coding, Git, cloud, communication
-
-ข้อจำกัด:
-เก็บข้อมูลจากเพียง 8 ประเทศ
+ข้อจำกัด
+ตัวอย่างยังจำกัดในบางมหาวิทยาลัย
+มุมมองนักอุตสาหกรรมบางกลุ่มอาจไม่สะท้อนภาพรวมจริง
 
 
-7) Improving Collaboration Skills in Computer Engineering Education
-ลิงก์: https://doi.org/10.1145/3446871.3469772
-งานวิจัยทำอะไร:
-งานวิจัยนี้มุ่งพัฒนาทักษะการทำงานร่วมกันของนักศึกษาวิศวกรรมผ่านการใช้ Agile/Scrum และ GitHub Classroom ในการแบ่งงาน
-และติดตามความคืบหน้า การทดลองแสดงว่านักศึกษามีปฏิสัมพันธ์ในทีมมากขึ้น การสื่อสารชัดเจนขึ้น และจำนวน commit บน GitHub
-เพิ่มขึ้นถึง 40% สะท้อนการทำงานจริงของทีมพัฒนาได้ดีขึ้น อย่างไรก็ตามการประเมินผลแบบ peer review ต้องใช้เวลามาก
-ทำให้การนำไปใช้ในชั้นเรียนขนาดใหญ่มีข้อจำกัด
+4. Employability Skills: A Systematic Literature Review on Skills, Challenges and Curriculum Integration in Higher Education — 2025
+(บทความรีวิว) https://www.researchgate.net/publication/395025899_Employability_Skills_A_Systematic_Literature_Review_on_Skills_Challenges_and_Curriculum_Integration_in_Higher_Education
+บทความนี้รวบรวมงานวิจัยหลายสิบชิ้นเพื่อวิเคราะห์ว่าทักษะที่ตลาดแรงงานต้องการกับทักษะที่สถาบันสอนอยู่ — พบว่า soft skills, critical thinking, problem-solving, teamwork และ adaptability ถูกยกให้เป็นทักษะสำคัญ แต่หลายกรณียัง “บูรณาการเข้าหลักสูตรได้ไม่เต็มที่” เนื่องจากข้อจำกัดด้านการวัดผลและการออกแบบหลักสูตร
 
-ใช้เทคโนโลยี:
-Agile/Scrum, GitHub Classroom, peer evaluation
+เทคโนโลยี/วิธีวิจัย
+Systematic Literature Review (SLR)
+ใช้ PRISMA methodology
+วิเคราะห์เนื้อหาเชิงคุณภาพ (qualitative synthesis)
 
-ผลลัพธ์:
-คะแนน teamwork เพิ่มขึ้น และ commit เพิ่ม 40%
+ผลลัพธ์
+ทักษะสำคัญที่สุด: soft skills, critical thinking, problem-solving, teamwork, adaptability
+ปัญหา: หลักสูตรบูรณาการทักษะเหล่านี้ไม่มากพอ
 
-ข้อจำกัด:
-ใช้เวลาประเมิน peer review มาก
-
-
-8) Teaching Cybersecurity Fundamentals to Engineering Students
-ลิงก์: https://doi.org/10.1109/MC.2020.2998741
-งานวิจัยทำอะไร:
-งานวิจัยนี้ออกแบบคอร์ส Cybersecurity เพื่อเพิ่มความรู้ด้านความปลอดภัยดิจิทัลให้แก่นักศึกษาวิศวกรรมคอมพิวเตอร์
-ผ่านการใช้เครื่องมือเจาะระบบ เครื่องเสมือน และการจำลองเครือข่าย ผลการทดลองชี้ว่าผู้เรียนมีความตระหนักรู้ด้านความปลอดภัยเพิ่มขึ้นกว่า 60%
-และเข้าใจภัยคุกคามทั่วไปได้ดีขึ้น อย่างไรก็ตามการจัดคอร์สดังกล่าวต้องใช้อุปกรณ์จำลองและเซิร์ฟเวอร์ที่มีต้นทุนสูง ทำให้สถาบันที่มีงบจำกัดอาจนำไปใช้ได้ไม่เต็มรูปแบบ
-
-ใช้เทคโนโลยี:
-Pen-testing tools, virtual machines, network simulators
-
-ผลลัพธ์:
-awareness เพิ่มขึ้นกว่า 60%
-
-ข้อจำกัด:
-ต้องใช้งบประมาณสูง
+ข้อจำกัด
+งาน SLR บน ResearchGate อาจมีความเข้มข้นต่ำกว่า peer-review publisher
+รวมข้อมูลจากหลายปี ทำให้บริบทบางอย่างล้าสมัย
 
 
-9) The Role of Cloud Computing Skills in Engineering Education
-ลิงก์: https://doi.org/10.1109/ACCESS.2022.3165321
-งานวิจัยทำอะไร:
-งานวิจัยนี้วิเคราะห์ความสำคัญของทักษะ Cloud Computing เช่น AWS, Azure และ Docker ต่อการทำงานของบัณฑิตวิศวกรรมคอมพิวเตอร์
-ผลลัพธ์ชี้ว่านักศึกษาที่มีประสบการณ์การใช้ Cloud มีความพร้อมทำงานมากกว่า และมีอัตราการได้งานเร็วขึ้น 27% งานวิจัยเน้นว่าทักษะ
-Containerization และ Deployment บน Cloud เป็นส่วนสำคัญของ survival skills ในตลาดงานปัจจุบัน
-อย่างไรก็ตามสถาบันการศึกษาหลายแห่งมีข้อจำกัดเรื่อง Cloud credits ทำให้ประสบการณ์จริงของนักศึกษาอาจไม่เท่าเทียมกัน
+5. An assessment of graduates skills gap for sustainable employability in Bangladesh — 2025
+https://www.sciencedirect.com/science/article/pii/S259029112500508X
+งานวิจัยนี้ศึกษา skill mismatches ของบัณฑิตในบังกลาเทศ โดยใช้แบบสอบถาม + สัมภาษณ์ พบว่าช่องว่างด้าน “advanced technology & digital competencies” มีผลกระทบต่อความสามารถในการได้งานและการรักษางานระยะยาว ทำให้ผู้วิจัยแนะนำให้หลักสูตรปรับปรุงให้สอดคล้องกับความต้องการตลาด และสร้างความร่วมมือระหว่างมหาวิทยาลัยกับอุตสาหกรรม
 
-ใช้เทคโนโลยี:
-AWS, Azure, Docker, cloud labs
+เทคโนโลยี/วิธีวิจัย
+ใช้ Semistructured interview + Survey (Likert)
+เครื่องมือ SPSS + thematic analysis
 
-ผลลัพธ์:
-ผู้มีทักษะ cloud ได้งานเร็วขึ้น 27%
+ผลลัพธ์
+ช่องว่างใหญ่ใน advanced tech & digital competencies
+ส่งผลต่อการได้งาน + career sustainability
+แนะนำให้ ปรับหลักสูตร + ร่วมมืออุตสาหกรรม
 
-ข้อจำกัด:
-ขึ้นกับเครดิต cloud ของมหาวิทยาลัย
+ข้อจำกัด
+ศึกษาเฉพาะประเทศบังกลาเทศ อาจไม่เข้าได้กับประเทศพัฒนาแล้ว
+ตัวอย่างนายจ้างกลุ่ม IT ยังค่อนข้างจำกัด
+
+6. Bridging digital skill gaps in the global workforce — 2025
+https://www.sciencedirect.com/science/article/pii/S2590051X25000449
+งานวิจัยนี้วิเคราะห์การเปลี่ยนแปลงอย่างรวดเร็วของตลาดแรงงานทั่วโลก พบว่ามี “digital skill gap” ที่เพิ่มขึ้น และพัฒนา conceptual framework สำหรับการแก้ โดยเชื่อมโยงบทบาทภาคการศึกษา ภาคอุตสาหกรรม และผู้กำหนดนโยบาย เพื่อร่วมกันพัฒนาทักษะให้ทันต่อการเปลี่ยนแปลง
+
+เทคโนโลยี/วิธีวิจัย
+Conceptual research + Literature review
+สร้าง Digital Skill Gap Framework
+
+ผลลัพธ์
+ระบุ digital skill gap เพิ่มทั่วโลก โดยเฉพาะ AI, data skills, cybersecurity
+นำเสนอโมเดลความร่วมมือระหว่าง มหาวิทยาลัย–อุตสาหกรรม–รัฐบาล
+
+ข้อจำกัด
+ไม่ได้เก็บข้อมูลเชิงประจักษ์ (empirical)
+เน้นทฤษฎีมากกว่าการพิสูจน์จริง
 
 
-10) Enhancing Problem-Solving Skills Using Project-Based Learning (PBL)
-ลิงก์: https://doi.org/10.1016/j.compedu.2022.104618
-งานวิจัยทำอะไร:
-งานวิจัยนี้เสนอการใช้ Project-Based Learning (PBL) เพื่อเสริมทักษะแก้ปัญหาและความคิดวิเคราะห์ของนักศึกษาวิศวกรรมคอมพิวเตอร์
-โดยผู้เรียนต้องลงมือทำโครงงานจริง ใช้เครื่องมือพัฒนาซอฟต์แวร์ ไมโครคอนโทรลเลอร์ และระบบควบคุมเวอร์ชัน Git ผลปรากฏว่าทักษะ
-การแก้ปัญหาเพิ่มขึ้นกว่า 40% และผู้เรียนมีผลสัมฤทธิ์ทางวิชาการดีขึ้น อย่างไรก็ตามรูปแบบนี้ต้องใช้เวลาเรียนมากขึ้นและมีค่าใช้จ่ายด้านอุปกรณ์สูง
-จึงอาจไม่เหมาะกับรายวิชาที่มีข้อจำกัดทรัพยากร
+7. Employability Skills in IT Sector: What Matters Most for IT Graduates — 2025
+https://ojs.bonviewpress.com/index.php/IJCE/article/download/4010/1263/26680
+บทความนี้ระบุ “employability skills” ที่นายจ้างใน IT ให้ความสำคัญ เช่น communication, problem-solving, teamwork, time management, leadership, work planning และ prioritize skills — สะท้อนว่าทักษะที่ตลาดงานต้องการในสาย IT ไม่ใช่แค่ technical skills แต่รวมถึง soft & transferable skills ด้วย
 
-ใช้เทคโนโลยี:
-Microcontrollers (Arduino), Git, software tools
+เทคโนโลยี/วิธีวิจัย
+แบบสอบถามเชิงปริมาณ (quantitative survey)
+วิเคราะห์ด้วย mean ranking, descriptive stats
 
-ผลลัพธ์:
-ทักษะแก้ปัญหาเพิ่มขึ้น 40%
+ผลลัพธ์
+ทักษะที่นายจ้างให้ความสำคัญสูงสุด:
+communication
+teamwork
+time management
+leadership
+problem-solving
+Soft skills สำคัญไม่แพ้ tech skills
 
-ข้อจำกัด:
-ใช้เวลาสอนและทรัพยากรมาก
+ข้อจำกัด
+จำกัดเฉพาะอุตสาหกรรม IT เท่านั้น
+ใช้ self-report อาจเกิด bias
+
+
+8. Controlling Employability Issues of Computing Graduates — 2023
+https://etasr.com/index.php/ETASR/article/view/5892
+งานวิจัยนี้วิเคราะห์สาเหตุของการว่างงานในบัณฑิตสายคอมพิวเตอร์และความไม่สอดคล้องของทักษะที่เรียนกับความต้องการตลาด พบว่าหลายบัณฑิตขาด practical skills และ soft skills ที่จำเป็น ส่งผลให้โอกาสได้งานลดลง — งานจึงแนะนำให้มีการปรับหลักสูตร เพิ่มกิจกรรมที่เกี่ยวกับงานจริง และฝึกอบรมเฉพาะทางเพิ่ม
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Survey + Cross-sectional analysis
+ใช้สถิติเชิงพรรณนา + correlation analysis
+
+ผลลัพธ์
+บัณฑิตขาด practical skills, soft skills, และ industry experience
+ส่งผลให้ได้งานยาก
+แนะนำให้เพิ่ม work-integrated learning, hands-on labs
+
+ข้อจำกัด
+เก็บข้อมูลในกลุ่มบัณฑิตประเทศเดียว
+ไม่มีการทดสอบจากฝั่งนายจ้างโดยตรง
+
+
+9. Uncovering the Skillsets Required in Computer Science Job Market: A Skill Network Analysis of Job Postings — 2023
+https://arxiv.org/pdf/2308.08582.pdf
+งานวิจัยนี้วิเคราะห์ประกาศรับสมัครงานกว่า 7,777 ตำแหน่ง และเก็บข้อมูล 5,763 skill keywords แล้วสร้าง “skill-communication network” เพื่อดูความสัมพันธ์ของทักษะ พบว่าทักษะที่นายจ้างมองหามากสุดคือ programming/hard skills + soft skills เช่น communication, teamwork, Git, business-related skills — แสดงให้เห็นว่าทักษะหลายด้านควรถูกสอนควบคู่กันในหลักสูตร
+
+เทคโนโลยี/วิธีวิจัย
+Data mining + NLP + Skill Network Graph Modeling
+วิเคราะห์ประกาศงาน 7,777 รายการ
+ใช้ network centrality metrics (degree, betweenness)
+
+ผลลัพธ์
+ทักษะสำคัญที่สุด: programming, Git, teamwork, communication, business skills
+สร้าง network แสดงความสัมพันธ์ของทักษะ
+แสดงว่าควรสอน technical + soft skills ควบคู่กัน
+
+ข้อจำกัด
+ใช้ข้อมูลจากประกาศงานออนไลน์ → อาจไม่ครอบคลุมอุตสาหกรรมแบบดั้งเดิม
+ArXiv ยังไม่ผ่าน peer-review
+
+10. Analysis of Software Engineering Skills Gap in the Industry — 2023
+https://dl.acm.org/doi/10.1145/3567837
+บทความนี้วิเคราะห์ว่า หลายบัณฑิตสายวิศวกรรมซอฟต์แวร์เมื่อเข้าสู่งานจริง พบว่า “skills learnt in university” ไม่สอดคล้องกับความต้องการของอุตสาหกรรม ทำให้บริษัทต้องใช้ทรัพยากรเพิ่มเติมในการฝึกอบรมพนักงานใหม่ ชี้ให้เห็นว่าหลักสูตรในมหาวิทยาลัยควรปรับให้ใกล้เคียงกับความต้องการจริงของภาคอุตสาหกรรมมากขึ้น
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Survey + Industry interviews
+การวิเคราะห์เชิงสถิติเบื้องต้น
+โฟกัสกลุ่ม software engineering firms
+
+ผลลัพธ์
+ทักษะที่เรียนในมหาวิทยาลัย “ไม่สอดคล้อง” กับงานจริง
+บริษัทต้องฝึกใหม่ ทำให้ต้นทุนสูงขึ้น
+แนะนำให้เพิ่ม industry-aligned curriculum + real project practice
+
+ข้อจำกัด
+การเก็บข้อมูลยังจำกัดในบางภูมิภาค
+ใช้ตัวอย่างบริษัทขนาดกลางเป็นหลัก อาจไม่สะท้อน enterprise-level
 ```
 
 ## หน้าที่/ภาระงานของคุณ
@@ -532,29 +536,29 @@ Microcontrollers (Arduino), Git, software tools
 ```
 
 ## ลิงก์เอกสารอ้างอิง
-- [ลิงก์ Diagram](https://doi.org/10.1109/TEM.2019.2916362)
+- [ลิงก์ Diagram](https://pmc.ncbi.nlm.nih.gov/articles/PMC11387931/)
 ```text
-https://doi.org/10.1109/TEM.2019.2916362
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11387931/
 ```
-- [ลิงก์งานวิจัยอ้างอิง](https://doi.org/10.1016/j.chb.2020.106414)
+- [ลิงก์งานวิจัยอ้างอิง](https://sol.sbc.org.br/index.php/sbes/article/view/30361)
 ```text
-https://doi.org/10.1016/j.chb.2020.106414
+https://sol.sbc.org.br/index.php/sbes/article/view/30361
 ```
 - [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
 ```text
 https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
 ```
-- [ลิงก์ YouTube](https://doi.org/10.1109/ACCESS.2021.3059874)
+- [ลิงก์ YouTube](https://journals.sagepub.com/doi/10.1177/03064190231214178)
 ```text
-https://doi.org/10.1109/ACCESS.2021.3059874
+https://journals.sagepub.com/doi/10.1177/03064190231214178
 ```
-- [แนบเอกสารอื่น ๆ (1)](https://doi.org/10.1016/j.ijedudev.2021.102350)
+- [แนบเอกสารอื่น ๆ (1)](https://www.sciencedirect.com/science/article/pii/S259029112500508X)
 ```text
-https://doi.org/10.1016/j.ijedudev.2021.102350
+https://www.sciencedirect.com/science/article/pii/S259029112500508X
 ```
-- [แนบเอกสารอื่น ๆ (2)](https://doi.org/10.1016/j.compedu.2022.104618)
+- [แนบเอกสารอื่น ๆ (2)](https://ojs.bonviewpress.com/index.php/IJCE/article/download/4010/1263/26680)
 ```text
-https://doi.org/10.1016/j.compedu.2022.104618
+https://ojs.bonviewpress.com/index.php/IJCE/article/download/4010/1263/26680
 ```
 
 
