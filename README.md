@@ -674,6 +674,163 @@ https://www.sciencedirect.com/science/article/pii/S259029112500508X
 https://www.sciencedirect.com/science/article/pii/S2590051X25000449
 ```
 
+## ข้อ 3.2 คำชี้แจง/เป้าหมายไมล์สโตน
+ร่างขอบเขตโครงงานเบื้องต้น
+- เนื้อหา/รายละเอียด: เขียนว่าโครงงานนี้จะทำอะไรบ้าง และไม่ทำอะไรบ้าง
+- ความคาดหวัง: แบ่งเป็น "สิ่งที่จะทำ" และ "สิ่งที่อยู่นอกขอบเขต" ชัดเจน
+```text
+สิ่งที่จะทำ (In-Scope)
+1. ระบบจัดเก็บข้อมูลทักษะนักศึกษา
+- สร้างฐานข้อมูลที่เก็บข้อมูลทักษะด้านวิศวกรรมคอมพิวเตอร์ เช่น Programming, IoT, Network, AI, Web Dev ฯลฯ
+- บันทึกระดับทักษะ (Skill Level) เช่น Beginner / Intermediate / Advanced 
+- อนุญาตให้นักศึกษาอัปเดตโปรไฟล์ทักษะได้ด้วยตนเอง
+
+2. ระบบแบบประเมินทักษะ (Skill Assessment)
+- แบบประเมินตนเอง (Self-Assessment)
+- แบบประเมินจากกิจกรรม/วิชาเรียน เช่น งาน LAB, โปรเจกต์ หรือผลลัพธ์ในรายวิชา
+- ใช้แบบประเมินที่อิงมาตรฐานอุตสาหกรรม เช่น IEEE, ACM Computing Competencies
+
+3. ระบบสร้างแผนที่ทักษะ (Skill Mapping Visualization)
+- แสดงผลทักษะในรูปแบบกราฟ/เรดาร์ชาร์ต/แท่ง (ตามความเหมาะสม)
+- แสดงช่องว่างทักษะ (Skill Gap) ของนักศึกษารายบุคคล
+- เปรียบเทียบระดับทักษะกับ "Profile อาชีพ" เช่น Software Engineer, Network Engineer, Data Engineer
+
+4. ระบบแนะนำเส้นทางการพัฒนา (Skill Development Pathway)
+- แนะนำคอร์ส/กิจกรรม/โปรเจกต์ที่เหมาะสม
+- เสนอเส้นทางพัฒนาทักษะตามอาชีพเป้าหมาย (Career Roadmap)
+- แนะนำกิจกรรมที่มีภายในคณะ/มหาวิทยาลัยที่ช่วยพัฒนาทักษะ
+
+5. ฟีเจอร์สำหรับอาจารย์/คณะ
+- Dashboard สำหรับดูภาพรวมสมรรถนะนักศึกษาทั้งรุ่น/รายวิชา
+- รายงาน Skill Gap ของปีการศึกษา
+
+6. ฟีเจอร์พื้นฐานของระบบ
+-แสดงการ์ดและข้อมูลแนะนำSkill เสริมสำหรับเพิ่มทักษะที่ถูกต้อง
+- ระบบล็อกอินสมาชิก
+- จัดการบทบาทผู้ใช้งาน (นักศึกษา / อาจารย์ / Admin)
+- UI/UX ออกแบบให้ใช้งานง่าย เหมาะกับนักศึกษา
+
+สิ่งที่อยู่นอกขอบเขต (Out-of-Scope)
+1. ระบบเชื่อมต่อกับบริษัทภายนอก
+- ไม่ดึงข้อมูลทักษะจากบริษัทหรือระบบสมัครงานจริง
+- ไม่เชื่อมต่อ API ของ LinkedIn, JobThai, Indeed ฯลฯ
+
+2. ระบบ Machine Learning วิเคราะห์อัตโนมัติขั้นสูง
+- ไม่มีโมเดล AI ที่ประเมินทักษะโดยอัตโนมัติจากโค้ด/พฤติกรรม
+- ไม่มีการวิเคราะห์ Big Data ระดับองค์กร
+
+3. ระบบตรวจสอบผลงานนักศึกษาแบบอัตโนมัติ
+- ไม่ตรวจงานโปรเจกต์หรือการบ้าน
+- ไม่ใช้ Code Analyzer เช่น SonarQube หรือเครื่องมือจับพฤติกรรมการเขียนโค้ด
+```
+## หน้าที่/ภาระงานของคุณ
+อธิบายภาระงานของคุณในครั้งนี้ , ปัญหาที่เจอ และ แนวทางการแก้ไขปัญหา
+```text
+1) กำหนดขอบเขตและโครงสร้างระบบ Skill Mapping (In-Scope & Out-of-Scope)
+จำแนกอย่างชัดเจนว่าระบบจะทำอะไร และจะไม่ทำอะไร
+ปรับให้สอดคล้องกับความเป็นไปได้ใน 1 เทอม เช่น ไม่มี AI, ไม่มีการเชื่อมต่อบริษัทภายนอก
+ทำให้ทีมเข้าใจภาพรวมตรงกัน
+
+2) ออกแบบฟังก์ชันระบบที่จำเป็นตาม In-Scope
+การจัดเก็บข้อมูลทักษะนักศึกษา (Skills Database)
+การประเมินทักษะ (Self-Assessment / Course-Based)
+การสร้าง Skill Mapping Visualization
+ระบบแนะนำ Skill Pathway 
+Dashboard สำหรับอาจารย์
+
+3) กำหนดโครงสร้างฐานข้อมูลทักษะ (Skill Dataset & Schema)
+ระบุหมวดทักษะด้านวิศวกรรมคอมพิวเตอร์ (Programming, IoT, Network, AI, Web Dev ฯลฯ)
+ระบุระดับทักษะ (Beginner / Intermediate / Advanced)
+จัดโครง relational tables ให้รองรับฟีเจอร์ทั้งหมดใน In-Scope
+
+4) สร้างแนวคิดระบบประเมินทักษะ (Assessment Design)
+ระบุรูปแบบคำถาม
+โครงสร้างการเก็บคะแนนประเมิน
+วิธีแปลงคะแนนเป็นระดับทักษะ (mapping logic)
+
+5) ร่างรูปแบบการแสดงผล Skill Mapping และ Skill Gap
+เรดาร์ชาร์ต / กราฟแท่ง / การเปรียบเทียบกับอาชีพ
+ต้องกำหนดว่าร้อยละหรือคะแนนแบบไหนใช้คำนวณ gap
+
+6) รวบรวมความต้องการของผู้ใช้ (นักศึกษา–อาจารย์)
+วิเคราะห์ pain points ที่งานวิจัยสนับสนุน
+ทำให้ระบบตอบโจทย์ความต้องการจริง เช่น การดูภาพรวม Skill Gap ของรุ่น
+
+ปัญหาที่พบ (Problems Encountered)
+1) ขอบเขตงานยังไม่ชัดในตอนเริ่มต้น
+มีฟีเจอร์เยอะและหลากหลายจนเกินความสามารถที่จะทำได้ภายในหนึ่งเทอม
+ส่วนใหญ่มีความเสี่ยงเข้า Out-of-Scope เช่น AI, machine learning,การเชื่อมต่อบริษัท
+
+2) สับสนระหว่างฟีเจอร์ที่ “ควรมี” กับ “จำเป็นต้องมี”
+ผู้ใช้ต้องการระบบอัจฉริยะ แต่เวลามีจำกัด
+ต้องเลือกเฉพาะฟีเจอร์ที่สร้างจริงได้ เช่น แบบประเมินแบบ manual แทน AI
+
+3) ปัญหาการออกแบบฐานข้อมูลทักษะ
+ทักษะมีหลายหมวด
+ยากที่จะวางโครงสร้างให้รองรับทั้ง Skill Mapping และ Skill Pathway
+ต้องคิดว่าทักษะจะเพิ่ม/แก้ไขได้ง่ายในอนาคตหรือไม่
+
+4) ความกำกวมของการประเมินทักษะ
+Self-assessment เสี่ยง bias
+หากไม่มีระบบตรวจโค้ดอัตโนมัติ ต้องออกแบบคำถามแบบสร้างสรรค์ให้ได้ระดับทักษะที่ใกล้จริงที่สุด
+
+5) การหาตัวชี้วัดสำหรับ Skill Gap ที่เหมาะสม
+ต้องทำให้ทักษะ “คำนวณได้” เช่น 0–100 หรือ 1–5
+ต้องออกแบบ logic ที่ไม่ซับซ้อนเกินไป แต่ใช้งานได้จริง
+
+แนวทางการแก้ไขปัญหา (Solutions)
+1) จัดทำตาราง In-Scope / Out-of-Scope ให้ชัดเจน
+แยก feature ให้ชัดว่าทำได้ภายในเทอม
+ตัด AI, ML, ระบบเชื่อมต่อบริษัทออก
+เหลือเฉพาะฟีเจอร์ที่สร้างด้วย PHP / JS / DB ได้จริง
+
+2) Simplify ฟีเจอร์ให้เหมาะกับ 1 เทอม แต่ยังมีคุณค่ามาก
+แนะนำเส้นทางทักษะ → ใช้ Rule-based แทน AI
+การประเมินทักษะ → ใช้คะแนนแบบ rubric + self-assessment
+Visualization → ใช้ไลบรารี Chart.js
+
+3) ออกแบบ Database ให้ยืดหยุ่น
+ใช้ตารางกลาง เช่น skill_categories, skills, user_skill
+ปรับให้รองรับทักษะใหม่ในอนาคตโดยไม่ต้องแก้โค้ดมาก
+
+4) สร้าง Model การคำนวณ Skill Gap แบบง่ายแต่ชัดเจน
+Skill Level 1–5
+Career Profile มีค่ามาตรฐาน
+Gap = (Required Level – User Level)
+
+5) สร้าง Mockup / Blueprint ล่วงหน้าเพื่อให้ทีมเห็นภาพตรงกัน
+ก่อนเขียนโค้ดจริงเพื่อประหยัดเวลา
+หน้าโปรไฟล์
+หน้าแบบประเมิน
+เรดาร์ชาร์ต
+Skill Pathway
+```
+## ลิงก์เอกสารอ้างอิง
+- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์งานวิจัยอ้างอิง](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [แนบเอกสารอื่น ๆ (1)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [แนบเอกสารอื่น ๆ (2)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+
 # ล่างนี้คือ template ทำไว้เพื่อใส่ลิงก์
 ## ลิงก์เอกสารอ้างอิง
 - [ลิงก์ Diagram]()
