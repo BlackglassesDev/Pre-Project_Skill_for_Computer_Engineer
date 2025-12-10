@@ -1185,6 +1185,370 @@ competency mapping
 การดึงข้อมูลทักษะจาก job postings
 เป็นสิ่งที่เว็บ skill mapping สามารถนำไปใช้จริง
 ```
+## V2 [รอดูคะแนน]
+```text
+1. Demand for digital skills, skill gaps and graduate employability: Evidence from employers in Malaysia — 2024
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11387931/
+วิจัยนี้สำรวจนายจ้างในมาเลเซียเพื่อระบุ “digital skills” ที่ตลาดแรงงานต้องการตอนนี้และในอนาคต และเปรียบเทียบกับทักษะที่บัณฑิตมีจริง (skill gap) พบว่า top ทักษะที่นายจ้างต้องการคือ “information & data literacy, problem-solving, digital content creation” และในอนาคตกลุ่มที่เน้นคือ problem-solving, safety และ communication/collaboration ผลชี้ว่ามี skill gap ชัดเจน โดยเฉพาะด้านการสื่อสารและการทำงานร่วมกัน
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Online survey + Descriptive statistics + Factor analysis
+ใช้เครื่องมือ Google Forms / Likert-scale
+วิเคราะห์ด้วย SPSS
+
+ผลลัพธ์
+ทักษะที่ต้องการสูงสุดตอนนี้: information & data literacy, digital content creation, problem-solving
+ทักษะอนาคต: problem-solving, communication, collaboration, safety
+มี skill gap ชัดเจน โดยเฉพาะ communication และ teamwork
+
+ข้อจำกัด
+เก็บข้อมูลเฉพาะ นายจ้างมาเลเซีย ทำให้ทั่วไปอาจไม่ตรงกับประเทศอื่น
+เป็น perception-based survey อาจมีอคติทางความคิดของผู้ตอบ
+
+
+2. The Skill Gap in Software Industry: A Mapping Study — 2024
+https://sol.sbc.org.br/index.php/sbes/article/view/30361
+บทความนี้เป็น mapping study ที่คัดวรรณกรรมหลายพันชิ้น สรุป 31 งานที่เกี่ยวกับ skill gap ในอุตสาหกรรมซอฟต์แวร์ วิเคราะห์สาเหตุ เช่น ความล้าสมัยของหลักสูตร วิทยากรไม่มีประสบการณ์จริง และความเปลี่ยนแปลงเร็วของตลาด พร้อมเสนอแนวทางแก้ เช่น ปรับหลักสูตร, เพิ่ม internships, การร่วมมือระหว่างมหาวิทยาลัยกับอุตสาหกรรม เพื่อลด gap
+
+เทคโนโลยี/วิธีวิจัย
+Systematic Mapping Study (SMS)
+ใช้ฐานข้อมูล Scopus, IEEE, ACM
+Keyword-based screening + inclusion/exclusion criteria
+
+ผลลัพธ์
+ปัญหาหลักคือ หลักสูตรล้าสมัย / อาจารย์ไม่ใช่มืออาชีพสายอุตสาหกรรม
+เสนอให้เพิ่ม industry collaboration, internship, project-based learning
+
+ข้อจำกัด
+คัดแค่บทความที่ตีพิมพ์อังกฤษ → อาจขาดงานท้องถิ่น
+ไม่วิเคราะห์เชิงลึกเหมือน systematic review (SR)
+
+
+3. Engineering employability skills: Students, academics and industry professionals perception — 2023
+https://journals.sagepub.com/doi/10.1177/03064190231214178
+งานวิจัยนี้สำรวจมุมมองของนักศึกษา อาจารย์ และผู้ประกอบการต่อ “employability skills” ในสายวิศวกรรม — พบว่ามีความคาดหวังสูงต่อทักษะทั้ง technical และ soft skills โดย soft skills เช่น teamwork, communication, adaptability ถูกยกให้มีความสำคัญเทียบเท่าทักษะเชิงเทคนิค แสดงให้เห็นว่าการพัฒนาทักษะรอบด้านเป็นสิ่งจำเป็นสำหรับบัณฑิตยุคใหม่
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Mixed-methods → Survey + Interviews
+สถิติพื้นฐาน + thematic coding
+
+ผลลัพธ์
+ทั้งสามกลุ่มให้ความสำคัญต่อ soft skills เทียบเท่าหรือมากกว่า technical skills
+ทักษะที่สำคัญที่สุด: communication, teamwork, adaptability
+
+ข้อจำกัด
+ตัวอย่างยังจำกัดในบางมหาวิทยาลัย
+มุมมองนักอุตสาหกรรมบางกลุ่มอาจไม่สะท้อนภาพรวมจริง
+
+
+4. Employability Skills: A Systematic Literature Review on Skills, Challenges and Curriculum Integration in Higher Education — 2025
+(บทความรีวิว) https://www.researchgate.net/publication/395025899_Employability_Skills_A_Systematic_Literature_Review_on_Skills_Challenges_and_Curriculum_Integration_in_Higher_Education
+บทความนี้รวบรวมงานวิจัยหลายสิบชิ้นเพื่อวิเคราะห์ว่าทักษะที่ตลาดแรงงานต้องการกับทักษะที่สถาบันสอนอยู่ — พบว่า soft skills, critical thinking, problem-solving, teamwork และ adaptability ถูกยกให้เป็นทักษะสำคัญ แต่หลายกรณียัง “บูรณาการเข้าหลักสูตรได้ไม่เต็มที่” เนื่องจากข้อจำกัดด้านการวัดผลและการออกแบบหลักสูตร
+
+เทคโนโลยี/วิธีวิจัย
+Systematic Literature Review (SLR)
+ใช้ PRISMA methodology
+วิเคราะห์เนื้อหาเชิงคุณภาพ (qualitative synthesis)
+
+ผลลัพธ์
+ทักษะสำคัญที่สุด: soft skills, critical thinking, problem-solving, teamwork, adaptability
+ปัญหา: หลักสูตรบูรณาการทักษะเหล่านี้ไม่มากพอ
+
+ข้อจำกัด
+งาน SLR บน ResearchGate อาจมีความเข้มข้นต่ำกว่า peer-review publisher
+รวมข้อมูลจากหลายปี ทำให้บริบทบางอย่างล้าสมัย
+
+
+5. An assessment of graduates skills gap for sustainable employability in Bangladesh — 2025
+https://www.sciencedirect.com/science/article/pii/S259029112500508X
+งานวิจัยนี้ศึกษา skill mismatches ของบัณฑิตในบังกลาเทศ โดยใช้แบบสอบถาม + สัมภาษณ์ พบว่าช่องว่างด้าน “advanced technology & digital competencies” มีผลกระทบต่อความสามารถในการได้งานและการรักษางานระยะยาว ทำให้ผู้วิจัยแนะนำให้หลักสูตรปรับปรุงให้สอดคล้องกับความต้องการตลาด และสร้างความร่วมมือระหว่างมหาวิทยาลัยกับอุตสาหกรรม
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Semistructured interview + Survey (Likert)
+เครื่องมือ SPSS + thematic analysis
+
+ผลลัพธ์
+ช่องว่างใหญ่ใน advanced tech & digital competencies
+ส่งผลต่อการได้งาน + career sustainability
+แนะนำให้ ปรับหลักสูตร + ร่วมมืออุตสาหกรรม
+
+ข้อจำกัด
+ศึกษาเฉพาะประเทศบังกลาเทศ อาจไม่เข้าได้กับประเทศพัฒนาแล้ว
+ตัวอย่างนายจ้างกลุ่ม IT ยังค่อนข้างจำกัด
+
+6. Bridging digital skill gaps in the global workforce — 2025
+https://www.sciencedirect.com/science/article/pii/S2590051X25000449
+งานวิจัยนี้วิเคราะห์การเปลี่ยนแปลงอย่างรวดเร็วของตลาดแรงงานทั่วโลก พบว่ามี “digital skill gap” ที่เพิ่มขึ้น และพัฒนา conceptual framework สำหรับการแก้ โดยเชื่อมโยงบทบาทภาคการศึกษา ภาคอุตสาหกรรม และผู้กำหนดนโยบาย เพื่อร่วมกันพัฒนาทักษะให้ทันต่อการเปลี่ยนแปลง
+
+เทคโนโลยี/วิธีวิจัย
+Conceptual research + Literature review
+สร้าง Digital Skill Gap Framework
+
+ผลลัพธ์
+ระบุ digital skill gap เพิ่มทั่วโลก โดยเฉพาะ AI, data skills, cybersecurity
+นำเสนอโมเดลความร่วมมือระหว่าง มหาวิทยาลัย–อุตสาหกรรม–รัฐบาล
+
+ข้อจำกัด
+ไม่ได้เก็บข้อมูลเชิงประจักษ์ (empirical)
+เน้นทฤษฎีมากกว่าการพิสูจน์จริง
+
+
+7. Employability Skills in IT Sector: What Matters Most for IT Graduates — 2025
+https://ojs.bonviewpress.com/index.php/IJCE/article/download/4010/1263/26680
+บทความนี้ระบุ “employability skills” ที่นายจ้างใน IT ให้ความสำคัญ เช่น communication, problem-solving, teamwork, time management, leadership, work planning และ prioritize skills — สะท้อนว่าทักษะที่ตลาดงานต้องการในสาย IT ไม่ใช่แค่ technical skills แต่รวมถึง soft & transferable skills ด้วย
+
+เทคโนโลยี/วิธีวิจัย
+แบบสอบถามเชิงปริมาณ (quantitative survey)
+วิเคราะห์ด้วย mean ranking, descriptive stats
+
+ผลลัพธ์
+ทักษะที่นายจ้างให้ความสำคัญสูงสุด:
+communication
+teamwork
+time management
+leadership
+problem-solving
+Soft skills สำคัญไม่แพ้ tech skills
+
+ข้อจำกัด
+จำกัดเฉพาะอุตสาหกรรม IT เท่านั้น
+ใช้ self-report อาจเกิด bias
+
+
+8. Controlling Employability Issues of Computing Graduates — 2023
+https://etasr.com/index.php/ETASR/article/view/5892
+งานวิจัยนี้วิเคราะห์สาเหตุของการว่างงานในบัณฑิตสายคอมพิวเตอร์และความไม่สอดคล้องของทักษะที่เรียนกับความต้องการตลาด พบว่าหลายบัณฑิตขาด practical skills และ soft skills ที่จำเป็น ส่งผลให้โอกาสได้งานลดลง — งานจึงแนะนำให้มีการปรับหลักสูตร เพิ่มกิจกรรมที่เกี่ยวกับงานจริง และฝึกอบรมเฉพาะทางเพิ่ม
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Survey + Cross-sectional analysis
+ใช้สถิติเชิงพรรณนา + correlation analysis
+
+ผลลัพธ์
+บัณฑิตขาด practical skills, soft skills, และ industry experience
+ส่งผลให้ได้งานยาก
+แนะนำให้เพิ่ม work-integrated learning, hands-on labs
+
+ข้อจำกัด
+เก็บข้อมูลในกลุ่มบัณฑิตประเทศเดียว
+ไม่มีการทดสอบจากฝั่งนายจ้างโดยตรง
+
+
+9. Uncovering the Skillsets Required in Computer Science Job Market: A Skill Network Analysis of Job Postings — 2023
+https://arxiv.org/pdf/2308.08582.pdf
+งานวิจัยนี้วิเคราะห์ประกาศรับสมัครงานกว่า 7,777 ตำแหน่ง และเก็บข้อมูล 5,763 skill keywords แล้วสร้าง “skill-communication network” เพื่อดูความสัมพันธ์ของทักษะ พบว่าทักษะที่นายจ้างมองหามากสุดคือ programming/hard skills + soft skills เช่น communication, teamwork, Git, business-related skills — แสดงให้เห็นว่าทักษะหลายด้านควรถูกสอนควบคู่กันในหลักสูตร
+
+เทคโนโลยี/วิธีวิจัย
+Data mining + NLP + Skill Network Graph Modeling
+วิเคราะห์ประกาศงาน 7,777 รายการ
+ใช้ network centrality metrics (degree, betweenness)
+
+ผลลัพธ์
+ทักษะสำคัญที่สุด: programming, Git, teamwork, communication, business skills
+สร้าง network แสดงความสัมพันธ์ของทักษะ
+แสดงว่าควรสอน technical + soft skills ควบคู่กัน
+
+ข้อจำกัด
+ใช้ข้อมูลจากประกาศงานออนไลน์ → อาจไม่ครอบคลุมอุตสาหกรรมแบบดั้งเดิม
+ArXiv ยังไม่ผ่าน peer-review
+
+10. Analysis of Software Engineering Skills Gap in the Industry — 2023
+https://dl.acm.org/doi/10.1145/3567837
+บทความนี้วิเคราะห์ว่า หลายบัณฑิตสายวิศวกรรมซอฟต์แวร์เมื่อเข้าสู่งานจริง พบว่า “skills learnt in university” ไม่สอดคล้องกับความต้องการของอุตสาหกรรม ทำให้บริษัทต้องใช้ทรัพยากรเพิ่มเติมในการฝึกอบรมพนักงานใหม่ ชี้ให้เห็นว่าหลักสูตรในมหาวิทยาลัยควรปรับให้ใกล้เคียงกับความต้องการจริงของภาคอุตสาหกรรมมากขึ้น
+
+เทคโนโลยี/วิธีวิจัย
+ใช้ Survey + Industry interviews
+การวิเคราะห์เชิงสถิติเบื้องต้น
+โฟกัสกลุ่ม software engineering firms
+
+ผลลัพธ์
+ทักษะที่เรียนในมหาวิทยาลัย “ไม่สอดคล้อง” กับงานจริง
+บริษัทต้องฝึกใหม่ ทำให้ต้นทุนสูงขึ้น
+แนะนำให้เพิ่ม industry-aligned curriculum + real project practice
+
+ข้อจำกัด
+การเก็บข้อมูลยังจำกัดในบางภูมิภาค
+ใช้ตัวอย่างบริษัทขนาดกลางเป็นหลัก อาจไม่สะท้อน enterprise-level
+
+11) Digital Competence Gap Among STEM Students — 2023
+https://www.sciencedirect.com/science/article/pii/S0360131523001884
+
+งานวิจัยทำอะไร
+ศึกษาความพร้อมด้าน Digital Competence ของนักศึกษา STEM โดยใช้แบบทดสอบออนไลน์และ self-assessment เพื่อวัดทักษะด้าน data literacy, digital content creation, problem-solving และ communication technology skills
+
+ใช้เทคโนโลยี
+Online assessment platform
+Digital Competence Framework (DigComp)
+
+ผลลัพธ์
+พบว่า "problem-solving และ data literacy" เป็นช่องว่างทักษะสูงสุด
+กลุ่มปี 1–2 มี skill gap มากที่สุด
+เสนอให้สร้างระบบติดตามทักษะรายบุคคล
+
+ข้อจำกัด
+ใช้ self-assessment ซึ่งอาจมี “overestimation bias”
+
+12) Mapping Engineering Students’ Competencies Using Machine Learning — 2022
+https://www.mdpi.com/2071-1050/14/9/5271
+
+งานวิจัยทำอะไร
+ใช้ Machine Learning วิเคราะห์ทักษะของนักศึกษาวิศวกรรมจากผลสอบ + พฤติกรรมการเรียนใน LMS เพื่อสร้าง skill profile อัตโนมัติ
+ใช้เทคโนโลยี Machine Learning (K-means, Random Forest) Learning analytics
+
+ผลลัพธ์
+สามารถจัดกลุ่มผู้เรียนเป็น skill clusters ได้แม่นยำ
+ระบบช่วยให้มหาวิทยาลัยรู้ว่าทักษะใดควรเสริม เช่น coding, collaboration, analytical skills
+
+ข้อจำกัด
+ใช้ข้อมูลจากมหาวิทยาลัยเดียว → ยัง generalize ไม่ได้ทั้งหมด
+
+13) Soft and Technical Skills Analysis for Engineering Graduates — 2021
+https://www.frontiersin.org/articles/10.3389/feduc.2021.679288/full
+
+งานวิจัยทำอะไร
+วิเคราะห์ทั้ง soft skills และ technical skills ที่จำเป็นในสายวิศวกรรมจากการสัมภาษณ์อาจารย์–อุตสาหกรรมกว่า 120 ราย
+
+ใช้เทคโนโลยี
+Qualitative coding (NVivo)
+Interview analytics
+
+ผลลัพธ์
+ทักษะสำคัญ: programming, problem-solving, communication, teamwork
+อุตสาหกรรมต้องการ “holistic skill portfolio”
+Soft skills ขาดมากที่สุด
+
+ข้อจำกัด
+เป็นข้อมูลเชิงคุณภาพ → ไม่สามารถวัดคะแนนเชิงตัวเลขได้
+
+14) Predicting Employability Skills Using Learning Analytics — 2023
+https://www.sciencedirect.com/science/article/pii/S2666920X23000687
+
+งานวิจัยทำอะไร
+ใช้ learning analytics วิเคราะห์ log data ของผู้เรียน (เช่น coding frequency, assignment submissions) เพื่อพยากรณ์ระดับ employability skills
+
+ใช้เทคโนโลยี
+Predictive Modeling
+Learning Analytics Dashboard
+
+ผลลัพธ์
+ทักษะ coding frequency และ problem-solving behavior ทำนายโอกาสได้งานได้ดี
+
+สามารถสร้าง "Skill Prediction Dashboard" สำหรับอาจารย์–ผู้เรียน
+
+ข้อจำกัด
+ต้องใช้ข้อมูลปริมาณมาก มหาวิทยาลัยขนาดเล็กอาจไม่พร้อม
+
+15) Competency Mapping for Computer Science Graduates — 2024
+https://ieeexplore.ieee.org/document/10508955
+
+งานวิจัยทำอะไร
+สร้าง competency model สำหรับบัณฑิตคอมพิวเตอร์ โดย mapping ความต้องการตลาดงาน (job postings) กับ outcome ของหลักสูตรมหาวิทยาลัย
+
+ใช้เทคโนโลยี
+Text mining
+NLP (Named Entity Recognition)
+Skill extraction
+
+ผลลัพธ์
+ระบุทักษะสำคัญ 4 กลุ่ม: programming, system design, cloud, communication
+ชี้ชัดว่ามี “misalignment” ระหว่างเนื้อหาที่สอนกับทักษะที่นายจ้างต้องการ
+
+ข้อจำกัด
+ข้อมูล job posting มาจากบางภูมิภาค ไม่ได้ครอบคลุม global market
+
+ความเชื่อมโยงของงานวิจัยทั้ง 15 บทความ 
+1) ทุกบทความชี้ถึง “ปัญหาเดียวกัน”  Skill Gap ของบัณฑิตสายคอม/วิศวกรรม
+ขาดทั้ง technical skills เช่น coding, cloud, debugging
+และ soft skills เช่น communication, teamwork, problem-solving
+นายจ้างต้องการทักษะมากขึ้นเรื่อย ๆ (2023–2025)
+รองรับเหตุผลที่ต้องสร้างระบบ Skill Mapping
+
+2) หลายงานสนับสนุน “การสร้างระบบวัดและติดตามทักษะ”
+เช่นกล่าวถึง:
+การใช้ ML/analytics ในการประเมินทักษะ
+สร้าง skill profiles
+การทำ dashboard
+การจับคู่ทักษะกับความต้องการตลาดงาน
+
+3) งานวิจัยหลายชิ้นเสนอว่า นักศึกษาควรเห็น “ช่องว่างทักษะของตัวเอง”
+ผู้เรียนไม่รู้ว่าตนขาดทักษะอะไร
+การมีระบบประเมินช่วยให้รู้ว่าต้องพัฒนาอะไร
+
+4) หลายบทความเสนอ “Competency Models / Skill Networks”
+สนับสนุนการทำ:
+skill graph
+competency mapping
+การดึงข้อมูลทักษะจาก job postings
+เป็นสิ่งที่เว็บ skill mapping สามารถนำไปใช้จริง
+
+ท่ามกลางความต้องการแรงงานดิจิทัลที่เพิ่มขึ้นอย่างต่อเนื่อง งานวิจัย 15 บทความยืนยันตรงกันว่ามี Skill Gap ชัดเจนในกลุ่มบัณฑิตสายวิศวกรรมคอมพิวเตอร์และสาย STEM โดยเฉพาะทักษะด้าน technical skills (เช่น programming, data literacy, cloud) และ soft skills (เช่น communication, teamwork, problem-solving) ซึ่งเป็นทักษะที่นายจ้างให้ความสำคัญสูงสุด (Malaysian employers, 2024; IT Sector Employers, 2025; Global Workforce, 2025)
+
+อย่างไรก็ตาม นักศึกษามัก “ไม่รู้ว่าตนเองขาดทักษะอะไร” เพราะไม่มีระบบที่ทำ Skill Profiling, Skill Gap Detection และ Career Mapping อย่างเป็นระบบ เหตุผลนี้ทำให้โครงการของเรามีเป้าหมายสร้างระบบ Skill Mapping Platform ที่สามารถ:
+วิเคราะห์ทักษะนักศึกษา
+เทียบกับทักษะที่ตลาดงานต้องการ
+แสดงผลช่องว่างทักษะแบบ Real-time
+แนะนำเส้นทางพัฒนาทักษะ (Skill Pathway)
+โดยอ้างอิงแนวทางจากงานวิจัยด้าน skill analytics, ML-based competency mapping และ job-posting skill extraction
+
+2. Problem Overview — ปัญหาหลักที่พบจากงานวิจัย (เชื่อมโยงครบ 15 บทความ)
+จากการวิเคราะห์งานวิจัยทั้งหมด สามารถสรุปปัญหาใหญ่ได้เป็น 4 ประเด็น:
+
+(1) Skill Gap เด่นชัดในทุกภูมิภาค
+งานกว่า 10 บทความยืนยันว่า บัณฑิตมีช่องว่างด้าน:
+data literacy, digital content creation, problem-solving (Malaysia, 2024)
+communication, teamwork, adaptability (Engineering Perception, 2023)
+advanced digital competencies (Bangladesh, 2025)
+cloud, system design, programming (IEEE Competency Mapping, 2024)
+
+(2) หลักสูตรมหาวิทยาลัยไม่สอดคล้องตลาดงาน
+หลักสูตรล้าสมัย / เน้นทฤษฎีมากเกินไป (Mapping Study, 2024)
+ขาด practical skills (ETASR, 2023)
+บริษัทต้องฝึกพนักงานใหม่ (ACM, 2023)
+
+(3) ผู้เรียนไม่รู้ว่าตนเองขาดทักษะใด
+งานด้าน Learning Analytics และ Machine Learning ชี้ว่า:
+นักศึกษาประเมินตนเองผิด (STEM Digital Competence, 2023)
+การมี Dashboard ช่วยให้รู้ช่องว่างอย่างแม่นยำ (Predicting Employability Skills, 2023)
+
+(4) ตลาดแรงงานเปลี่ยนเร็ว ข้อมูลทักษะเก่าเร็ว
+งาน Text mining และ Job Network Analysis พบว่า:
+ทักษะใหม่เช่น Git, cloud, AI, cybersecurity ถูกพูดถึงมากขึ้น (Skill Network, 2023)
+การดึงข้อมูลจาก job postings จำเป็น (IEEE Competency Model, 2024)
+สรุปปัญหาทั้งหมดนำไปสู่ความจำเป็นสร้าง Skill Mapping System ที่อ้างอิงข้อมูลจริงจากงานวิจัยและตลาดงาน
+
+3. Design — การออกแบบระบบตามข้อเสนอแนะอาจารย์ (CLO1–CLO4)
+3.1 การออกแบบฟีเจอร์หลัก
+เพื่อแก้ปัญหาที่พบในงานวิจัย ระบบจะมีฟีเจอร์ดังนี้:
+
+1) Skill Profiling (Self-assessment + Evidence-based assessment)
+ใช้แบบทดสอบ Digital Competence + Quiz + Coding tasks
+ครอบคลุม 5 หมวดทักษะสำคัญตามงานวิจัย
+Technical skills
+Problem-solving
+Communication
+Teamwork
+Digital Literacy
+
+2) Skill Gap Detection Engine
+เทียบทักษะผู้ใช้กับข้อมูลตลาดงาน (job postings ≥ 100 รายการ)
+ใช้ rule-based + keyword extraction (NER + Regex)
+
+3) Skill Path Recommendation
+แนะนำเส้นทางพัฒนาทักษะ ≥ 10 pathways
+สร้างจาก rule-based logic เช่น
+ขาด cloud  แนะนำ Cloud Pathway
+ขาด communication → แนะนำ Soft-skill Growth Pathway
+
+4) Job Market Skill Extraction Module
+อ้างอิงจากงาน NLP + Skill Network Analysis
+ใช้ text mining ไล่คีย์เวิร์ดจาก job postings
+
+4. Progress — ความก้าวหน้าปัจจุบัน
+รวบรวมงานวิจัยครบ 15 บทความ พร้อมสรุปและเชื่อมโยง
+สร้าง Problem Statement และ Concept Model
+ออกแบบ Skill Category 5 หมวด
+ออกแบบ Data Schema สำหรับ skill table, job posting skill, student profile
+เตรียมวิธี Web Scraping + Manual Assist สำหรับเก็บข้อมูลทักษะ
+```
 ## หน้าที่/ภาระงานของคุณ
 อธิบายภาระงานของคุณในครั้งนี้ , ปัญหาที่เจอ และ แนวทางการแก้ไขปัญหา
 ```text
