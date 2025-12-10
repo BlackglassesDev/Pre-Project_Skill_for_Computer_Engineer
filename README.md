@@ -1185,7 +1185,7 @@ competency mapping
 การดึงข้อมูลทักษะจาก job postings
 เป็นสิ่งที่เว็บ skill mapping สามารถนำไปใช้จริง
 ```
-## V2 [รอดูคะแนน]
+## V2 [21 เพิ่มมาจาก V1 1คะแนน]
 ```text
 1. Demand for digital skills, skill gaps and graduate employability: Evidence from employers in Malaysia — 2024
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11387931/
