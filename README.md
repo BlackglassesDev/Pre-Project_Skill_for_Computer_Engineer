@@ -1647,6 +1647,33 @@ https://www.sciencedirect.com/science/article/pii/S2666920X23000687
 https://ieeexplore.ieee.org/document/10508955
 ```
 
+## ข้อ 4.1 คำชี้แจง/เป้าหมายไมล์สโตน
+สร้างตารางเปรียบเทียบงานวิจัย (Comparison Table)
+- ลิงค์ diagram/เอกสาร: ส่งตารางเปรียบเทียบอย่างน้อย 10 บทความ
+- ความคาดหวัง: ตารางต้องมีคอลัมน์: ชื่อผู้วิจัย/ปี, เทคโนโลยีที่ใช้, จุดเด่น, จุดอ่อน, ช่องว่างที่โครงงานนี้จะเติม
+```text
+| **บทความ (ผู้วิจัย/ปี)** | **เทคโนโลยี/วิธีวิจัย** | **จุดเด่น (Key Findings)** | **จุดอ่อน (Limitations)** | **ช่องว่างที่โครงงานนี้เติม** |
+| :---: | :---: | :---: | :---: | :---: |
+| **Demand for digital skills, skill gaps and graduate employability (2024)**                | Online survey, Descriptive statistics, Factor analysis | ระบุ digital & problem-solving skills ที่ตลาดงานต้องการตอนนี้และอนาคต | เก็บข้อมูลเฉพาะนายจ้างมาเลเซีย, survey bias                  | ระบบวัดและแสดง skill gap ต่อกลุ่มทักษะที่สำคัญและเชิงปฏิบัติ                |
+| **The Skill Gap in Software Industry: A Mapping Study (2024)**                              | Systematic Mapping Study (Scopus, IEEE, ACM)           | รวบรวมงาน skill gap software industry และเสนอแนวทาง curriculum        | ไม่วิเคราะห์เชิงลึกเหมือน SR, ยังไม่เฉพาะวิศวกรรมคอมพิวเตอร์ | แปลงแนวแก้ปัญหาเป็นฟีเจอร์ ที่จับคู่ skills กับหลักสูตรและ industry         |
+| **Engineering employability skills: Students, academics & professionals perception (2023)** | Mixed methods (Survey + Interviews)                    | Soft skills สำคัญเทียบเท่า technical skills                           | ตัวอย่างจำกัดบ้าง, ไม่เป็นตัวแทนเต็ม                         | ระบบประเมินและ visualization ที่รวมทั้ง soft/tech skills ใน dashboard       |
+| **Employability Skills: A Systematic Literature Review (2025)**                             | Systematic Literature Review (PRISMA)                  | ทักษะสำคัญ: soft skills, teamwork, problem-solving                    | งาน SLR บน ResearchGate อาจความเข้มต่ำกว่า peer review       | สร้างมาตรฐาน skill categories จากงานวิจัยเข้ากับระบบ Skill Mapping          |
+| **An assessment of graduates skills gap… (2025)**                                           | Semi-structured interviews + Survey (Likert)           | พบ gap ใน advanced tech & digital competencies                        | ข้อมูลจากบังกลาเทศอาจไม่ generalize                          | ระบบที่สามารถ custom skill sets สำหรับ context ไทย/อังกฤษ/ภูมิภาคเฉพาะ      |
+| **Bridging digital skill gaps in the global workforce (2025)**                              | Conceptual + Literature review                         | ระบุ digital skill gap ทั่วโลกและเสนอ framework                       | ไม่มีข้อมูลเชิงประจักษ์                                      | นำแนวคิด global framework มาออกแบบ requirement ของระบบ                      |
+| **Employability Skills in IT Sector: What Matters Most (2025)**                             | Quantitative survey (mean ranking)                     | ระบุทักษะสำคัญของงาน IT (soft + tech)                                 | สำรวจเฉพาะ IT / self-report bias                             | แสดง ranking skills ใน dashboard และแนะนำ pathway ตาม priority              |
+| **Controlling Employability Issues of Computing Graduates (2023)**                          | Survey + Cross-sectional analysis                      | พบ gap ใน practical & soft skills                                     | เก็บข้อมูลเฉพาะบางประเทศ, ไม่มี employer data                | ระบบที่รวม assessment practical tasks และแสดงช่องว่างขั้นตอนจริง            |
+| **Uncovering Required Skillsets via Job Postings (2023)**                                   | Data mining + NLP + Skill network modeling             | วิเคราะห์ job postings 7,777 รายการ → แสดง skill network              | ใช้ arXiv (ไม่ peer reviewed)                                | ระบบ mapping job market skill trends เข้ากับ skill categories ของนักศึกษา   |
+| **Analysis of Software Engineering Skills Gap… (2023)**                                    | Survey + Industry interviews                           | พบ misalignment ระหว่างเรียนกับ industry                              | ตัวอย่างบริษัทขนาดกลาง                                       | เพิ่ม feature dashboard สำหรับอาจารย์ดู alignment ระหว่างหลักสูตร–ตลาดงาน   |
+| **Digital Competence Gap Among STEM Students (2023)**                                      | Online assessment + Digital Competence Framework       | พบ gap ใน problem-solving & data literacy                             | Self-assessment bias                                         | ระบบ assessment ที่ผสม self + task-based ให้อนุญาตได้จริง                   |
+| **Mapping Engineering Students’ Competencies Using ML (2022)**                             | ML (K-means, Random Forest) + learning analytics       | จัดกลุ่ม profile ทักษะอัตโนมัติ                                       | ข้อมูลจากมหาวิทยาลัยเดียว                                   | แปลง ML insights เป็น rule-based pathways ในระบบ                            |
+| **Soft & Technical Skills Analysis (2021)**                                                | Qualitative coding (NVivo)                             | ระบุ soft + hard skills ที่สำคัญ                                      | เป็นคุณภาพ ไม่สามารถวัดเชิงตัวเลขได้                         | ระบบที่ให้คะแนนเชิงตัวเลขตาม skills ที่สำคัญตามงานวิจัย                     |
+| **Predicting Employability Using Learning Analytics (2023)**                               | Learning analytics, Predictive modeling                | ทักษะ coding/behavior ทำนาย employability                             | ต้อง data ปริมาณมาก                                          | Dashboard วิเคราะห์พฤติกรรมแบบ simplified rule-based                        |
+| **Competency Mapping for CS Graduates (2024)**                                             | Text mining + NLP                                      | Identified key skills and misalignment                                | ข้อมูล job posting บางภูมิภาค                                | Interpretable mapping system ที่แสดง “difference score” ระหว่างเรียนกับตลาด |
+
+## ลิงก์ ตารางเปรียบเทียบ
+- 
+```
+
 # ล่างนี้คือ template ทำไว้เพื่อใส่ลิงก์
 ## ลิงก์เอกสารอ้างอิง
 - [ลิงก์ Diagram]()
