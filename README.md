@@ -1670,9 +1670,53 @@ https://ieeexplore.ieee.org/document/10508955
 | **Predicting Employability Using Learning Analytics (2023)**                               | Learning analytics, Predictive modeling                | ทักษะ coding/behavior ทำนาย employability                             | ต้อง data ปริมาณมาก                                          | Dashboard วิเคราะห์พฤติกรรมแบบ simplified rule-based                        |
 | **Competency Mapping for CS Graduates (2024)**                                             | Text mining + NLP                                      | Identified key skills and misalignment                                | ข้อมูล job posting บางภูมิภาค                                | Interpretable mapping system ที่แสดง “difference score” ระหว่างเรียนกับตลาด |
 
-## ลิงก์ ตารางเปรียบเทียบ
-- 
+ลิงก์ ตารางเปรียบเทียบ
+- https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf
 ```
+## หน้าที่/ภาระงานของคุณ
+อธิบายภาระงานของคุณในครั้งนี้ , ปัญหาที่เจอ และ แนวทางการแก้ไขปัญหา
+```text
+ภาระงานของในไมล์สโตนนี้คือการรวบรวม ศึกษา และสังเคราะห์งานวิจัยที่เกี่ยวข้องกับ Skill Gap, Employability Skills และ Skill Mapping ในสายวิศวกรรมคอมพิวเตอร์และ IT รวมจำนวน 15 บทความ จากแหล่งวิชาการที่น่าเชื่อถือ เช่น ScienceDirect, IEEE, ACM, PMC และวารสารนานาชาติอื่น ๆ
+จากนั้นนำข้อมูลมาวิเคราะห์เปรียบเทียบในประเด็น เทคโนโลยีที่ใช้ จุดเด่น จุดอ่อน และช่องว่างของงานวิจัย พร้อมจัดทำ ตารางเปรียบเทียบงานวิจัย (Comparison Table) เพื่อเชื่อมโยงกับแนวคิดและขอบเขตของโครงงาน Skill Mapping Platform
+
+ปัญหาที่พบระหว่างการทำงาน
+- งานวิจัยหลายบทความใช้ บริบทประเทศหรืออุตสาหกรรมที่แตกต่างกัน ทำให้ยากต่อการนำมาเชื่อมโยงโดยตรงกับบริบทนักศึกษาวิศวกรรมคอมพิวเตอร์
+- บางงานวิจัยเน้นเชิงแนวคิดหรือเชิงสถิติ แต่ ยังไม่แปลงเป็นระบบหรือเครื่องมือที่ใช้งานจริง
+- งานบางส่วนใช้ Machine Learning หรือ Learning Analytics ขั้นสูง ซึ่งอยู่นอกขอบเขตของโครงงานที่กำหนดให้ไม่มี AI
+- รูปแบบการนำเสนอของงานวิจัยแตกต่างกัน ทำให้ต้องใช้เวลาในการสังเคราะห์ข้อมูลให้เป็นมาตรฐานเดียวกัน
+
+แนวทางการแก้ไขปัญหา
+- คัดเลือกเฉพาะประเด็นร่วมของงานวิจัย เช่น skill gap, soft skills, technical skills, competency mapping เพื่อสร้างความเชื่อมโยงระหว่างบทความ
+- สังเคราะห์ผลลัพธ์ของงานวิจัยให้อยู่ในรูปแบบที่สามารถนำไปใช้พัฒนา ฟีเจอร์ของระบบ Skill Mapping ได้จริง เช่น assessment, dashboard และ skill visualization
+- นำแนวคิดจากงานที่ใช้ AI/Analytics มาปรับเป็น rule-based system ให้สอดคล้องกับขอบเขตโครงงาน
+- จัดทำตารางเปรียบเทียบในรูปแบบเดียวกันทั้งหมด เพื่อให้เห็น ช่องว่างที่โครงงานนี้จะเข้าไปเติมเต็มอย่างชัดเจน
+```
+## ลิงก์เอกสารอ้างอิง
+- [ลิงก์ Diagram]( https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf67
+```
+- [ลิงก์งานวิจัยอ้างอิง](https://www.mdpi.com/2071-1050/14/9/5271)
+```text
+https://www.mdpi.com/2071-1050/14/9/5271
+```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์ YouTube](https://www.youtube.com/watch?v=GL26VQ6WONA&t=1s)
+```text
+https://www.youtube.com/watch?v=GL26VQ6WONA&t=1s
+```
+- [แนบเอกสารอื่น ๆ (1)](https://www.sciencedirect.com/science/article/pii/S2666920X23000687)
+```text
+https://www.sciencedirect.com/science/article/pii/S2666920X23000687
+```
+- [แนบเอกสารอื่น ๆ (2)](https://ieeexplore.ieee.org/document/10508955)
+```text
+https://ieeexplore.ieee.org/document/10508955
+```
+
 
 # ล่างนี้คือ template ทำไว้เพื่อใส่ลิงก์
 ## ลิงก์เอกสารอ้างอิง
