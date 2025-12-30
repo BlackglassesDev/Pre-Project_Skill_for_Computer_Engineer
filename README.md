@@ -1840,6 +1840,248 @@ https://www.sciencedirect.com/science/article/pii/S2666920X23000687
 https://ieeexplore.ieee.org/document/10508955
 ```
 
+
+## ข้อ 5.2 คำชี้แจง/เป้าหมายไมล์สโตน
+สร้าง Block Diagram หรือ System Architecture
+- ลิงค์ diagram: ส่งภาพ diagram แสดงสถาปัตยกรรมระบบโดยรวม ; พร้อมคำอธิบาย Diagram อย่างละเอียด ให้ผู้อ่านมองเห็นที่มาที่ไปของถึงปัญหาและแนวทางการแก้ปัญหาที่คุณใช้ในการออกแบบ
+- ความคาดหวัง: ภาพต้องชัดเจน มี label ครบ และอธิบายส่วนประกอบหลัก ๆ ชัดเจนครบถ้วน พร้อมคำอธิบายประกอบ
+```text
+ภาพรวมแนวคิดของระบบ
+จากการทบทวนวรรณกรรมพบว่า ปัญหาหลักของบัณฑิตสายวิศวกรรมคอมพิวเตอร์คือ Skill Gap ระหว่างทักษะที่มีจริงกับทักษะที่ตลาดแรงงานต้องการ โดยเฉพาะด้าน problem-solving, communication, teamwork และ digital competencies ระบบ Skill Mapping นี้จึงถูกออกแบบมาเพื่อเป็นเครื่องมือในการ ประเมิน วิเคราะห์ แสดงผล และแนะนำแนวทางพัฒนาทักษะ อย่างเป็นระบบ
+
+1. User Layer (Student / Teacher)
+- Student/User
+    - เข้าสู่ระบบ (Login)
+    - กรอกและอัปเดตโปรไฟล์ทักษะ
+    - ทำแบบประเมินทักษะ (Self-Assessment / Task-based)
+    - ดูแผนที่ทักษะ (Skill Mapping) และช่องว่างทักษะ (Skill Gap)
+
+- Teacher/Faculty
+    - เข้าดู Dashboard ภาพรวม
+    - วิเคราะห์ Skill Gap ระดับรายวิชา/ทั้งรุ่น
+
+2. Web Frontend UI
+- เป็นส่วนติดต่อผู้ใช้ที่ออกแบบให้ใช้งานง่าย แสดงผลข้อมูลในรูปแบบ
+- แบบฟอร์มประเมินทักษะ
+- กราฟเรดาร์ / กราฟแท่ง
+- การ์ดแนะนำทักษะและเส้นทางพัฒนา
+- Frontend ทำหน้าที่รับข้อมูลจากผู้ใช้และส่งคำร้องขอไปยัง Backend
+
+3. Backend Application Server
+- ทำหน้าที่เป็นศูนย์กลางของระบบ ประกอบด้วย
+    - ประมวลผลข้อมูลผู้ใช้
+    - จัดการสิทธิ์และบทบาท (Student / Teacher / Admin)
+    - เชื่อมต่อฐานข้อมูล
+    - เรียกใช้โมดูล Skill Mapping และ Skill Gap Analysis
+
+4. Database Layer
+- ประกอบด้วยฐานข้อมูลหลัก 3 ส่วน
+    - User Database: ข้อมูลผู้ใช้และบทบาท
+    - Skill & Competency Database: หมวดทักษะ ระดับทักษะ มาตรฐานอ้างอิง
+    - Assessment Results Database: ผลการประเมินทักษะของนักศึกษา
+
+5. Skill Mapping Engine (Rule-Based)
+เป็นหัวใจของระบบ ใช้หลักการ Competency Mapping จากงานวิจัย
+- เปรียบเทียบทักษะนักศึกษากับมาตรฐานอาชีพ
+- ใช้กฎ (rules) แทน Machine Learning เพื่อให้โปร่งใสและสอดคล้องกับขอบเขตโครงงาน
+- อ้างอิง skill standards จาก IEEE, ACM และงานวิจัยด้าน employability
+
+6. Skill Gap Analysis & Visualization
+- วิเคราะห์ช่องว่างระหว่าง “ทักษะที่มี” และ “ทักษะที่ควรมี”
+- แสดงผลผ่าน Visualization เช่น Radar Chart, Bar Chart
+- ช่วยให้นักศึกษามองเห็นจุดอ่อนของตนเองอย่างชัดเจน
+
+7. Skill Development Pathway Engine
+- แนะนำคอร์ส กิจกรรม หรือโปรเจกต์
+- เชื่อมโยงกับ Career Profile (เช่น Software Engineer, Network Engineer)
+- สนับสนุนแนวคิดจากงานวิจัยที่เสนอให้ผู้เรียนเห็น “เส้นทางพัฒนาทักษะที่เป็นรูปธรรม”
+
+8. Faculty Dashboard & Analytics
+- แสดงภาพรวมสมรรถนะนักศึกษา
+- ใช้ประกอบการปรับปรุงหลักสูตร
+- ช่วยลดปัญหา misalignment ระหว่างการเรียนกับตลาดแรงงาน
+
+สรุปเชิงวิชาการ
+System Architecture นี้ถูกออกแบบโดยตรงเพื่อตอบโจทย์ปัญหา Skill Gap ที่ปรากฏอย่างสม่ำเสมอในงานวิจัยช่วงปี 2021–2025 และแปลงแนวคิดเชิงทฤษฎีให้กลายเป็นระบบเว็บที่ใช้งานได้จริง ภายใต้ขอบเขตที่ไม่ใช้ AI/ML ขั้นสูง แต่เน้นความโปร่งใส ความเป็นไปได้ และการนำไปใช้ในบริบทการศึกษา
+
+Link Block Diagram: https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/block_diagram.drawio.png
+```
+
+## หน้าที่/ภาระงานของคุณ
+อธิบายภาระงานของคุณในครั้งนี้ , ปัญหาที่เจอ และ แนวทางการแก้ไขปัญหา
+```text
+ภาระงานหลักของในไมล์สโตนนี้ คือการ ออกแบบและจัดทำ Block Diagram / System Architecture ของระบบเว็บ Skill Mapping สำหรับนักศึกษาวิศวกรรมคอมพิวเตอร์ โดยมีหน้าที่สำคัญดังนี้
+- วิเคราะห์ปัญหาเชิงระบบจากงานวิจัยที่ศึกษาไว้ก่อนหน้า โดยเฉพาะประเด็น Skill Gap ระหว่างทักษะนักศึกษากับความต้องการตลาดแรงงาน
+- แปลงแนวคิดเชิงทฤษฎีจากงานวิจัย (เช่น competency mapping, skill gap analysis, employability skills) ให้เป็น โครงสร้างระบบที่เป็นรูปธรรม
+
+ออกแบบสถาปัตยกรรมระบบให้ครอบคลุมส่วนสำคัญ ได้แก่
+- ผู้ใช้งาน (นักศึกษา / อาจารย์)
+- ส่วนติดต่อผู้ใช้ (Frontend)
+- ระบบประมวลผล (Backend)
+- ฐานข้อมูล
+- โมดูลวิเคราะห์ Skill Mapping และ Skill Gap
+- กำหนดขอบเขตระบบให้ สอดคล้องกับโครงงานจริง โดยไม่ใช้ AI หรือ Machine Learning ขั้นสูง ตามที่กำหนดไว้ใน In-Scope / Out-of-Scope
+- จัดทำคำอธิบาย Diagram อย่างละเอียด เพื่อให้ผู้อ่านเห็นความเชื่อมโยงระหว่าง ปัญหาที่พบในงานวิจัย → แนวทางการออกแบบระบบ → ฟีเจอร์ของระบบ
+
+ปัญหาที่พบระหว่างการทำงาน
+ระหว่างการจัดทำ Block Diagram พบปัญหาหลักหลายประการ ได้แก่
+- ความซับซ้อนของงานวิจัยที่หลากหลาย
+- งานวิจัยที่ศึกษาใช้วิธีการและเทคโนโลยีแตกต่างกัน ทั้ง survey, analytics, NLP และ Machine Learning ทำให้ต้องคัดเลือกเฉพาะแนวคิดที่เหมาะสมกับบริบทโครงงาน
+
+การควบคุมขอบเขตของระบบ
+- หลายงานวิจัยเสนอการใช้ AI/ML ในการประเมินทักษะ ซึ่งขัดกับขอบเขตโครงงานที่กำหนดไว้ว่าไม่ใช้ AI ขั้นสูง
+
+การสื่อสารแนวคิดเชิงนามธรรมให้เข้าใจง่าย
+- แนวคิดอย่าง skill gap, competency mapping และ employability skills เป็นแนวคิดเชิงทฤษฎีที่อาจเข้าใจยาก หากไม่ออกแบบ diagram ให้ชัดเจนและมี label ครบถ้วน
+
+การทำให้ Diagram สอดคล้องกับการใช้งานจริง
+- Diagram ต้องไม่เป็นเพียงภาพเชิงแนวคิด แต่ต้องสะท้อนระบบที่สามารถพัฒนาได้จริงภายใน 1 เทอม
+
+3) แนวทางการแก้ไขปัญหา
+เพื่อแก้ไขปัญหาดังกล่าว ได้ดำเนินการดังนี้
+- คัดเลือกเฉพาะ แนวคิดร่วม (common findings) จากงานวิจัย เช่น
+- การมี Skill Gap ที่ชัดเจน
+- ความจำเป็นของระบบประเมินและ visualization
+- การแนะนำเส้นทางพัฒนาทักษะ
+- ปรับการออกแบบระบบให้ใช้ Rule-Based Skill Mapping แทน AI/ML เพื่อให้
+- ระบบโปร่งใส
+- สอดคล้องกับขอบเขตโครงงาน
+- อธิบายได้ง่ายในเชิงวิชาการ
+- แยกสถาปัตยกรรมระบบออกเป็น Layer ชัดเจน (User, Frontend, Backend, Database, Analytics) เพื่อให้ Diagram อ่านง่ายและเข้าใจได้ทันที
+- ใส่ label และคำอธิบายประกอบทุกส่วนของ Diagram เพื่อเชื่อมโยงว่า
+- ปัญหา Skill Gap จากงานวิจัย → ถูกแก้ด้วยโมดูลใดในระบบ
+- ตรวจสอบความสอดคล้องของ Diagram กับ In-Scope / Out-of-Scope เพื่อให้ระบบมีความเป็นไปได้ในการพัฒนาจริง
+
+สรุป
+ภาระงานในไมล์สโตนนี้ช่วยให้เห็นภาพรวมของโครงงานอย่างชัดเจน ตั้งแต่ที่มาของปัญหาเชิงวิชาการไปจนถึงแนวทางการออกแบบระบบเชิงเทคนิค Block Diagram ที่จัดทำขึ้นไม่เพียงแสดงโครงสร้างระบบ แต่ยังสะท้อนกระบวนการคิด วิเคราะห์ และการตัดสินใจเชิงวิศวกรรมที่สอดคล้องกับงานวิจัยและเป้าหมายของโครงงาน
+```
+
+## ลิงก์เอกสารอ้างอิง
+- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/block_diagram.drawio.png)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/block_diagram.drawio.png
+```
+- [ลิงก์งานวิจัยอ้างอิง](https://www.mdpi.com/2071-1050/14/9/5271)
+```text
+https://www.mdpi.com/2071-1050/14/9/5271
+```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [แนบเอกสารอื่น ๆ (1)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram
+```
+- [แนบเอกสารอื่น ๆ (2)](https://ieeexplore.ieee.org/document/10508955)
+```text
+https://ieeexplore.ieee.org/document/10508955
+```
+
+
+## ข้อ 5.3 คำชี้แจง/เป้าหมายไมล์สโตน
+รายการเทคโนโลยีและเครื่องมือที่จะใช้
+- เนื้อหา/รายละเอียด: สร้างตารางแสดง Hardware, Software, Platform, Tools ที่จะใช้
+- ความคาดหวัง: ระบุชื่อ ความสามารถ และเหตุผลที่เลือกใช้
+```text
+| ด้านเทคโนโลยี | ชื่อเทคโนโลยี                         | ความสามารถ                    | เหตุผลที่เลือกใช้                                   |
+| :---:       | :---:                              | :---:                         | :---: |
+| Hardware    | เครื่องคอมพิวเตอร์ (PC / Laptop)       | ใช้พัฒนา ทดสอบ และสาธิตระบบ   | เป็นอุปกรณ์พื้นฐานที่นักศึกษาและอาจารย์สามารถเข้าถึงได้ง่าย    |
+| Hardware    | Server (Local / University Server) | ให้บริการระบบเว็บและฐานข้อมูล     | รองรับการทดสอบระบบในสภาพแวดล้อมใกล้เคียงการใช้งานจริง   |
+| Software    | HTML5	                           | โครงสร้างหน้าเว็บ	              | เป็นมาตรฐานในการพัฒนาเว็บ                           |
+| Software    | CSS3	                           | จัดรูปแบบและออกแบบ UI	      | ช่วยให้เว็บไซต์ใช้งานง่ายและเหมาะกับนักศึกษา              |
+| Software    | JavaScript	                       | ควบคุมการทำงานฝั่งผู้ใช้	          | ใช้สร้างความโต้ตอบ (Interactive) ของระบบ            |
+| Software    | Node.js	                           | พัฒนา Backend และ API	      | รองรับการสร้างระบบเว็บที่ขยายได้ง่าย                     |
+| Software    | Express.js	                       | จัดการ REST API	              | โครงสร้างชัดเจน เหมาะกับระบบ Skill Mapping           |
+| Software    | MySQL	                           | จัดเก็บข้อมูลทักษะและผู้ใช้งาน	  | เหมาะกับข้อมูลเชิงโครงสร้างและการวิเคราะห์ Skill Gap      |
+| Platform    | React.js	                       | พัฒนา Frontend แบบ Component-based |เหมาะกับการแสดงผล Skill Mapping และ Dashboard |
+| Platform    | Chart.js / Recharts	               | แสดงข้อมูลเชิงกราฟ	          | ใช้สร้าง Radar Chart, Bar Chart เพื่อแสดงระดับทักษะ    |
+| Platform    | Bootstrap / Tailwind CSS	       | ออกแบบ UI/UX	              | ลดเวลาในการออกแบบและทำให้หน้าตาใช้งานง่าย            |
+| Platform    | XAMPP / Node Runtime	           | จัดการสภาพแวดล้อมเซิร์ฟเวอร์	  | ติดตั้งง่าย เหมาะกับการเรียนการสอน                      |
+| Tools       | Visual Studio Code	               | เขียนและแก้ไขโค้ด	              | รองรับหลายภาษาและมี Extension ช่วยพัฒนา             |
+| Tools       | Git	                               | ควบคุมเวอร์ชันของซอร์สโค้ด	      | ช่วยจัดการการทำงานเป็นทีม                            |
+| Tools       | GitHub	                           | เก็บและแชร์ซอร์สโค้ด	          | เป็นมาตรฐานที่ใช้ในอุตสาหกรรม                         |
+| Tools       | Figma	                           | ออกแบบ UI/UX	              | ช่วยวางโครงหน้าระบบก่อนพัฒนา                        |
+| Tools       | Web Browser (Chrome)	           | ทดสอบระบบ	                  | ใช้ตรวจสอบการทำงานของเว็บแอปพลิเคชัน                |
+
+โครงงานนี้เลือกใช้เทคโนโลยีด้าน Web Application ที่เป็นมาตรฐานอุตสาหกรรม ประกอบด้วย React.js สำหรับพัฒนา Frontend และ Node.js สำหรับ Backend โดยใช้ฐานข้อมูล MySQL เพื่อจัดเก็บข้อมูลทักษะของนักศึกษา ระบบถูกออกแบบให้เน้นการแสดงผล Skill Mapping และ Skill Gap ผ่าน Visualization โดยใช้ตรรกะแบบ rule-based แทนการใช้เทคโนโลยี Machine Learning เพื่อให้เหมาะสมกับขอบเขตของโครงงานและการใช้งานในบริบททางการศึกษา
+```
+| ด้านเทคโนโลยี | ชื่อเทคโนโลยี                         | ความสามารถ                    | เหตุผลที่เลือกใช้                                   |
+| :---:       | :---:                              | :---:                         | :---: |
+| Hardware    | เครื่องคอมพิวเตอร์ (PC / Laptop)       | ใช้พัฒนา ทดสอบ และสาธิตระบบ   | เป็นอุปกรณ์พื้นฐานที่นักศึกษาและอาจารย์สามารถเข้าถึงได้ง่าย    |
+| Hardware    | Server (Local / University Server) | ให้บริการระบบเว็บและฐานข้อมูล     | รองรับการทดสอบระบบในสภาพแวดล้อมใกล้เคียงการใช้งานจริง   |
+| Software    | HTML5	                           | โครงสร้างหน้าเว็บ	              | เป็นมาตรฐานในการพัฒนาเว็บ                           |
+| Software    | CSS3	                           | จัดรูปแบบและออกแบบ UI	      | ช่วยให้เว็บไซต์ใช้งานง่ายและเหมาะกับนักศึกษา              |
+| Software    | JavaScript	                       | ควบคุมการทำงานฝั่งผู้ใช้	          | ใช้สร้างความโต้ตอบ (Interactive) ของระบบ            |
+| Software    | Node.js	                           | พัฒนา Backend และ API	      | รองรับการสร้างระบบเว็บที่ขยายได้ง่าย                     |
+| Software    | Express.js	                       | จัดการ REST API	              | โครงสร้างชัดเจน เหมาะกับระบบ Skill Mapping           |
+| Software    | MySQL	                           | จัดเก็บข้อมูลทักษะและผู้ใช้งาน	  | เหมาะกับข้อมูลเชิงโครงสร้างและการวิเคราะห์ Skill Gap      |
+| Platform    | React.js	                       | พัฒนา Frontend แบบ Component-based |เหมาะกับการแสดงผล Skill Mapping และ Dashboard |
+| Platform    | Chart.js / Recharts	               | แสดงข้อมูลเชิงกราฟ	          | ใช้สร้าง Radar Chart, Bar Chart เพื่อแสดงระดับทักษะ    |
+| Platform    | Bootstrap / Tailwind CSS	       | ออกแบบ UI/UX	              | ลดเวลาในการออกแบบและทำให้หน้าตาใช้งานง่าย            |
+| Platform    | XAMPP / Node Runtime	           | จัดการสภาพแวดล้อมเซิร์ฟเวอร์	  | ติดตั้งง่าย เหมาะกับการเรียนการสอน                      |
+| Tools       | Visual Studio Code	               | เขียนและแก้ไขโค้ด	              | รองรับหลายภาษาและมี Extension ช่วยพัฒนา             |
+| Tools       | Git	                               | ควบคุมเวอร์ชันของซอร์สโค้ด	      | ช่วยจัดการการทำงานเป็นทีม                            |
+| Tools       | GitHub	                           | เก็บและแชร์ซอร์สโค้ด	          | เป็นมาตรฐานที่ใช้ในอุตสาหกรรม                         |
+| Tools       | Figma	                           | ออกแบบ UI/UX	              | ช่วยวางโครงหน้าระบบก่อนพัฒนา                        |
+| Tools       | Web Browser (Chrome)	           | ทดสอบระบบ	                  | ใช้ตรวจสอบการทำงานของเว็บแอปพลิเคชัน                |
+
+## หน้าที่/ภาระงานของคุณ
+อธิบายภาระงานของคุณในครั้งนี้ , ปัญหาที่เจอ และ แนวทางการแก้ไขปัญหา
+```text
+ในไมล์สโตนนี้มีหน้าที่รับผิดชอบในการ วิเคราะห์ คัดเลือก และจัดทำรายการเทคโนโลยีและเครื่องมือที่เหมาะสม สำหรับการพัฒนาโครงงานเว็บ Skill Mapping ของนักศึกษาวิศวกรรมคอมพิวเตอร์ โดยมีภาระงานหลักดังนี้
+- วิเคราะห์ลักษณะและขอบเขตของโครงงานจากปัญหา Skill Gap และเป้าหมายของระบบ
+- คัดเลือกเทคโนโลยีด้าน Hardware, Software, Platform และ Tools ที่เหมาะสมกับการพัฒนาเว็บแอปพลิเคชัน
+- จัดทำตารางแสดงชื่อเทคโนโลยี ความสามารถ และเหตุผลที่เลือกใช้ให้สอดคล้องกับวัตถุประสงค์โครงงาน
+- ตรวจสอบให้เทคโนโลยีที่เลือกมีความเป็นไปได้จริง สามารถพัฒนาและนำไปใช้งานในบริบทของนักศึกษาได้
+
+ปัญหาที่พบระหว่างการดำเนินงาน
+- ระหว่างการจัดทำรายการเทคโนโลยี พบปัญหาหลักดังต่อไปนี้
+- มีตัวเลือกเทคโนโลยีจำนวนมาก เช่น Framework และเครื่องมือพัฒนาเว็บ ซึ่งอาจเกินขอบเขตของโครงงานระดับรายวิชา
+- ความสับสนในการตัดสินใจว่าจะใช้เทคโนโลยีขั้นสูง เช่น Machine Learning หรือ AI หรือไม่ เนื่องจากอาจเพิ่มความซับซ้อนของระบบ
+- ต้องเลือกเทคโนโลยีที่สอดคล้องกับงานวิจัยที่เกี่ยวข้องและยังคงความเป็นไปได้ในการพัฒนาในระยะเวลาที่จำกัด
+
+แนวทางการแก้ไขปัญหา
+- เพื่อแก้ไขปัญหาดังกล่าว ข้าพเจ้าได้ดำเนินการดังนี้
+- กำหนดหลักเกณฑ์ในการเลือกเทคโนโลยี โดยเน้นความเหมาะสมกับวัตถุประสงค์ของระบบ Skill Mapping มากกว่าความซับซ้อนของเทคโนโลยี
+- เลือกใช้เทคโนโลยีที่เป็นมาตรฐานอุตสาหกรรม เช่น React.js, Node.js และ MySQL ซึ่งมีความเสถียรและมีแหล่งเรียนรู้รองรับจำนวนมาก
+- ตัดสินใจใช้แนวคิดแบบ rule-based และ data-driven แทนการใช้ Machine Learning เพื่อให้ระบบสามารถพัฒนาได้จริงภายในขอบเขตโครงงาน
+- จัดทำตารางสรุปเทคโนโลยีอย่างเป็นระบบ เพื่อให้อาจารย์และผู้อ่านเข้าใจที่มาที่ไปและเหตุผลของการเลือกใช้แต่ละเทคโนโลยีได้อย่างชัดเจน
+
+สรุป
+ผลลัพธ์ของภาระงานในครั้งนี้คือ รายการเทคโนโลยีและเครื่องมือที่ชัดเจน ครบถ้วน และสอดคล้องกับเป้าหมายของโครงงาน ซึ่งสามารถนำไปใช้เป็นพื้นฐานในการออกแบบสถาปัตยกรรมระบบและการพัฒนาโครงงานในไมล์สโตนถัดไปได้อย่างเป็นรูปธรรม
+```
+
+## ลิงก์เอกสารอ้างอิง
+- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้
+```
+- [ลิงก์งานวิจัยอ้างอิง](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf
+```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf
+```
+- [แนบเอกสารอื่น ๆ (1)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf
+```
+- [แนบเอกสารอื่น ๆ (2)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางอุปกรณ์ที่ใช้/ตารางแสดง%20Hardware%2C%20Software%2C%20Platform%2C%20Tools%20ที่จะใช้.pdf
+```
+
 # ล่างนี้คือ template ทำไว้เพื่อใส่ลิงก์
 ## ลิงก์เอกสารอ้างอิง
 - [ลิงก์ Diagram]()
