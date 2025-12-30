@@ -2165,18 +2165,171 @@ https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/
 ```text
 https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
 ```
-- [ลิงก์ YouTube]()
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf)
 ```text
-?????????
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf
 ```
 - [แนบเอกสารอื่น ๆ (1)]()
 ```text
-??????????
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf
 ```
 - [แนบเอกสารอื่น ๆ (2)]()
 ```text
-??????????
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/ตารางเปรียบเทียบบทความ.pdf
 ```
+
+
+## ข้อ 6.2 คำชี้แจง/เป้าหมายไมล์สโตน
+ปรับปรุง System Architecture
+- ลิงค์ diagram: ส่ง diagram ฉบับปรับปรุงพร้อมคำอธิบายแต่ละส่วน
+- ความคาดหวัง: ละเอียดกว่าเดิม มี data flow, component interaction
+```text
+Diagram โครงสร้างระบบ (เชิงแนวคิด)
+[ ผู้ใช้งาน (Browser) ]
+  นักศึกษา / อาจารย์ / Admin
+            |
+            | HTTP/HTTPS (JSON)
+            v
+[ Frontend Web Application ]
+  - React.js
+  - Skill Form / Assessment
+  - Skill Visualization (Chart)
+            |
+            | REST API Request
+            v
+[ Backend Application Server ]
+  - Node.js + Express
+  - Business Logic
+  - Skill Mapping Rules
+  - Authentication & Role
+            |
+            | SQL Query
+            v
+[ Database Server ]
+  - MySQL
+  - User Data
+  - Skill Data
+  - Assessment Results
+
+อธิบายส่วนประกอบของระบบ (Component Description)
+1. ผู้ใช้งาน (User Layer)
+ประกอบด้วย
+- นักศึกษา: กรอกข้อมูลทักษะ ทำแบบประเมิน และดู Skill Gap ของตนเอง
+- อาจารย์: ดูภาพรวมทักษะนักศึกษา วิเคราะห์ Skill Gap ระดับรายวิชา/รุ่น
+- Admin: จัดการข้อมูลพื้นฐาน ระบบ และบทบาทผู้ใช้งาน
+- ผู้ใช้งานเข้าถึงระบบผ่าน Web Browser โดยไม่ต้องติดตั้งโปรแกรมเพิ่มเติม
+
+2. Frontend Web Application
+พัฒนาโดยใช้ React.js ทำหน้าที่เป็นส่วนติดต่อผู้ใช้ (UI/UX)
+หน้าที่หลัก ได้แก่
+- แสดงแบบฟอร์มกรอกข้อมูลทักษะ (Programming, IoT, AI ฯลฯ)
+- แสดงผลแบบประเมิน (Self-assessment และผลจากรายวิชา)
+- แสดง Skill Mapping Visualization เช่น Radar Chart, Bar Chart
+- ส่งและรับข้อมูลกับ Backend ผ่าน REST API ในรูปแบบ JSON
+
+3. Backend Application Server
+พัฒนาโดยใช้ Node.js และ Express.js ทำหน้าที่เป็นแกนหลักของระบบ
+หน้าที่สำคัญ ได้แก่
+- ประมวลผลตรรกะของระบบ (Business Logic)
+- จัดการระบบล็อกอินและสิทธิ์การใช้งาน (Student / Teacher / Admin)
+- ประมวลผล Skill Mapping Rule-based Logic
+- คำนวณ Skill Gap โดยเปรียบเทียบทักษะนักศึกษากับ Career Profile
+- เชื่อมต่อและจัดการข้อมูลกับฐานข้อมูล MySQL
+ระบบ ไม่ใช้ Machine Learning แต่ใช้ rule-based และ data comparison เพื่อให้สอดคล้องกับขอบเขตโครงงาน
+
+4. Database Server
+ใช้ MySQL สำหรับจัดเก็บข้อมูลอย่างเป็นโครงสร้าง
+ข้อมูลหลักที่จัดเก็บ ได้แก่
+- ข้อมูลผู้ใช้งาน (User Profile, Role)
+- ข้อมูลทักษะและระดับทักษะ (Skill Level)
+- ผลการประเมินทักษะ
+- ข้อมูล Career Profile และ Skill Requirement
+- ฐานข้อมูลทำหน้าที่รองรับการเรียกใช้ข้อมูลจาก Backend อย่างมีประสิทธิภาพ
+
+Data Flow ของระบบ (การไหลของข้อมูล)
+- ผู้ใช้งานล็อกอินและกรอกข้อมูลทักษะผ่าน Frontend
+- Frontend ส่งข้อมูลไปยัง Backend ผ่าน REST API
+- Backend ตรวจสอบความถูกต้องและประมวลผล Skill Mapping
+- Backend บันทึก/ดึงข้อมูลจาก Database
+- Backend ส่งผลลัพธ์ Skill Gap และ Visualization Data กลับไปยัง Frontend
+- Frontend แสดงผลในรูปแบบกราฟและ Dashboard ให้ผู้ใช้งานเข้าใจง่าย
+
+สรุปภาพรวมการออกแบบ
+System Architecture นี้ถูกออกแบบเพื่อ
+- แก้ปัญหา การขาดระบบที่แสดง Skill Gap อย่างเป็นรูปธรรม
+- รองรับผู้ใช้งานหลายบทบาท
+- มีโครงสร้างชัดเจน แยกหน้าที่แต่ละส่วน
+- สามารถพัฒนาได้จริงในระดับโครงงานรายวิชา และต่อยอดได้ในอนาคต
+
+Link System Architecture (ปรับปรุง) : https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio.png
+
+Link Draw.io: https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio
+```
+
+## หน้าที่/ภาระงานของคุณ
+อธิบายภาระงานของคุณในครั้งนี้ , ปัญหาที่เจอ และ แนวทางการแก้ไขปัญหา
+```text
+ในไมล์สโตนนี้มีหน้าที่หลักในการออกแบบและปรับปรุงสถาปัตยกรรมระบบ (System Architecture) ของโครงงานเว็บ Skill Mapping สำหรับนักศึกษาวิศวกรรมคอมพิวเตอร์ โดยมีเป้าหมายให้โครงสร้างระบบมีความชัดเจน ละเอียด และสามารถอธิบายการทำงานของระบบได้ครบถ้วนตามคำชี้แจงของรายวิชา
+
+ภาระงานที่ดำเนินการประกอบด้วย
+- วิเคราะห์ปัญหา Skill Gap ของนักศึกษา จากงานวิจัยที่ศึกษา เพื่อกำหนดองค์ประกอบหลักของระบบ
+- ออกแบบ System Architecture ใหม่ให้แยกชั้นการทำงานอย่างชัดเจน ได้แก่ User Layer, Frontend, Backend และ Database
+- สร้าง Block Diagram / System Diagram ที่แสดง
+- การไหลของข้อมูล (Data Flow)
+- การทำงานร่วมกันของแต่ละ Component (Component Interaction)
+- เชื่อมโยงโครงสร้างระบบกับขอบเขตโครงงาน (In-Scope / Out-of-Scope) โดยเลือกใช้แนวคิด Rule-based Skill Mapping แทนการใช้ Machine Learning
+- เขียนคำอธิบายประกอบ Diagram อย่างละเอียด เพื่อให้ผู้อ่านเข้าใจที่มา ปัญหา และแนวทางการออกแบบระบบ
+
+ปัญหาที่พบระหว่างการดำเนินงาน
+- ความซับซ้อนขององค์ประกอบระบบ
+ระบบ Skill Mapping ต้องรองรับผู้ใช้งานหลายบทบาท (นักศึกษา อาจารย์ และผู้ดูแลระบบ) รวมถึงมีหลายฟังก์ชัน เช่น การประเมินทักษะ การวิเคราะห์ Skill Gap และการแสดงผลแบบ Visualization ทำให้การออกแบบสถาปัตยกรรมในภาพรวมมีความซับซ้อน
+
+- ความไม่ชัดเจนระหว่างการใช้ Rule-based และ Machine Learning
+จากการศึกษางานวิจัย พบว่าหลายระบบใช้ Machine Learning ในการประเมินทักษะ ซึ่งอาจทำให้โครงงานหลุดจากขอบเขตที่กำหนดไว้
+
+- การสื่อสาร Data Flow ให้เข้าใจง่าย
+การอธิบายการไหลของข้อมูลระหว่าง Frontend, Backend และ Database ให้ผู้อ่านที่ไม่เชี่ยวชาญเข้าใจได้ง่ายเป็นความท้าทายสำคัญ
+
+แนวทางการแก้ไขปัญหา
+- ออกแบบระบบแบบ Layered Architecture
+แยกโครงสร้างระบบออกเป็นชั้นการทำงานอย่างชัดเจน (User, Frontend, Backend, Database) เพื่อลดความซับซ้อนและทำให้แต่ละส่วนมีหน้าที่เฉพาะ
+
+- กำหนดขอบเขตการประมวลผลให้ชัดเจน
+เลือกใช้ Rule-based Skill Mapping และ Data Comparison แทนการใช้ Machine Learning เพื่อให้สอดคล้องกับขอบเขตโครงงาน และสามารถพัฒนาได้จริงในระดับรายวิชา
+
+- เพิ่มคำอธิบาย Data Flow และ Component Interaction อย่างเป็นขั้นตอน
+อธิบายลำดับการทำงานตั้งแต่ผู้ใช้งานกรอกข้อมูล → การประมวลผลที่ Backend → การจัดเก็บข้อมูล → การแสดงผลบน Frontend พร้อมระบุรูปแบบการสื่อสาร (REST API, JSON)
+
+สรุปผลการดำเนินงาน
+ผลลัพธ์ของไมล์สโตนนี้คือ System Architecture ที่มีความชัดเจน ละเอียด และสอดคล้องกับปัญหา Skill Gap ที่ศึกษา โดยโครงสร้างระบบสามารถรองรับการประเมิน วิเคราะห์ และแสดงผลทักษะของนักศึกษาได้อย่างเป็นระบบ พร้อมทั้งสามารถต่อยอดพัฒนาในอนาคตได้ตามความเหมาะสม
+```
+
+## ลิงก์เอกสารอ้างอิง
+- [ลิงก์ Diagram](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio
+```
+- [ลิงก์งานวิจัยอ้างอิง](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio.png)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio.png
+```
+- [ลิงก์ Repository](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
+```
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio.png)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio.png
+```
+- [แนบเอกสารอื่น ๆ (1)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio
+```
+- [แนบเอกสารอื่น ๆ (2)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio)
+```text
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/main/เอกสารเพิ่มเติม/Block%20Diagram/ปรับปรุง%20System%20Architecture.drawio
+```
+
 ## ข้อ 6.3 คำชี้แจง/เป้าหมายไมล์สโตน
 ระบุ Key Features ของระบบ
 - เนื้อหา/รายละเอียด: แสดงรายการฟีเจอร์หลักของระบบ
@@ -2245,17 +2398,17 @@ https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/blob/
 https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer
 ```
 
-- [ลิงก์ YouTube]()
+- [ลิงก์ YouTube](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram)
 ```text
-?????????
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram
 ```
-- [แนบเอกสารอื่น ๆ (1)]()
+- [แนบเอกสารอื่น ๆ (1)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram)
 ```text
-??????????
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram
 ```
-- [แนบเอกสารอื่น ๆ (2)]()
+- [แนบเอกสารอื่น ๆ (2)](https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram)
 ```text
-??????????
+https://github.com/BlackglassesDev/Pre-Project_Skill_for_Computer_Engineer/tree/main/เอกสารเพิ่มเติม/Block%20Diagram
 ```
 # ล่างนี้คือ template ทำไว้เพื่อใส่ลิงก์
 ## ลิงก์เอกสารอ้างอิง
