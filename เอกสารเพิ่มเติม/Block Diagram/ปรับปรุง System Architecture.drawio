@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0" version="29.2.9">
+  <diagram name="หน้า-1" id="cm3RvJFvZQMVENkSRyV4">
+    <mxGraphModel dx="2067" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="69StdfU-k8ZDQkCLWjam-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="นักศึกษา / ผู้ใช้งาน" vertex="1">
+          <mxGeometry height="54" width="189" x="1053" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Frontend Web UI" vertex="1">
+          <mxGeometry height="54" width="180" x="968" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="อาจารย์ / คณะ" vertex="1">
+          <mxGeometry height="54" width="159" x="1435" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Backend Application Server" vertex="1">
+          <mxGeometry height="54" width="255" x="689" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Authentication and Role Management" vertex="1">
+          <mxGeometry height="78" width="260" x="20" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Skill Mapping Engine&#xa;Rule Based" vertex="1">
+          <mxGeometry height="78" width="260" x="330" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-7" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="ฐานข้อมูลผู้ใช้งาน" vertex="1">
+          <mxGeometry height="78" width="133" x="640" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-8" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="ฐานข้อมูลทักษะและสมรรถนะ" vertex="1">
+          <mxGeometry height="86" width="206" x="823" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-9" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" value="ฐานข้อมูลผลการประเมิน" vertex="1">
+          <mxGeometry height="83" width="173" x="1079" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Career Profile และมาตรฐานทักษะ&#xa;IEEE ACM งานวิจัย" vertex="1">
+          <mxGeometry height="78" width="260" x="175" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="การวิเคราะห์ช่องว่างทักษะ&#xa;Skill Gap Analysis" vertex="1">
+          <mxGeometry height="78" width="260" x="485" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="โมดูลแสดงผลทักษะ&#xa;Radar Chart Bar Chart" vertex="1">
+          <mxGeometry height="78" width="260" x="330" y="752" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="ระบบแนะนำเส้นทางพัฒนาทักษะ&#xa;Skill Development Pathway" vertex="1">
+          <mxGeometry height="102" width="260" x="640" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="คอร์ส กิจกรรม และโปรเจกต์&#xa;ภายในคณะหรือมหาวิทยาลัย" vertex="1">
+          <mxGeometry height="102" width="260" x="640" y="892" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Faculty Dashboard and Analytics" vertex="1">
+          <mxGeometry height="78" width="260" x="1302" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-16" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=0.32;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-2" value="เข้าสู่ระบบและแก้ไขโปรไฟล์">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="967" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-17" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.68;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-2" value="ทำแบบประเมินทักษะ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1148" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-18" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=1;entryY=0.05;rounded=0;" target="69StdfU-k8ZDQkCLWjam-2" value="ดูผล Skill Mapping และ Skill Gap">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1337" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-19" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=-0.01;entryX=1;entryY=0.73;rounded=0;" target="69StdfU-k8ZDQkCLWjam-2" value="เข้าดู Dashboard และรายงาน">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1597" y="575" />
+              <mxPoint x="1597" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-20" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.02;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-4" value="REST API&#xa;JSON Request Response">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="816" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-21" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-5" value="ตรวจสอบสิทธิ์ผู้ใช้">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-22" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-6" value="ประมวลผลข้อมูลทักษะ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-23" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="706" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-24" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="926" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-25" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.93;entryX=0.5;entryY=-0.01;rounded=0;" target="69StdfU-k8ZDQkCLWjam-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1166" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-26" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-27" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-28" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-29" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-30" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-31" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" target="69StdfU-k8ZDQkCLWjam-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1432" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="69StdfU-k8ZDQkCLWjam-32" edge="1" parent="1" source="69StdfU-k8ZDQkCLWjam-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.32;entryY=-0.01;rounded=0;" target="69StdfU-k8ZDQkCLWjam-3" value="รายงานภาพรวม Skill Gap">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1432" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
